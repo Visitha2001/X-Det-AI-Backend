@@ -4,7 +4,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 import uuid
 import os
-from models.model import model, DISEASE_LABELS
+from models.Pred_model import model, DISEASE_LABELS
 
 TEMP_DIR = "tmp_predictions"
 os.makedirs(TEMP_DIR, exist_ok=True)
