@@ -2,6 +2,7 @@ from fastapi import APIRouter, UploadFile, File, HTTPException
 from fastapi.responses import StreamingResponse, JSONResponse
 import os
 from controller.Pred_controller import generate_prediction_plot
+from controller.detail_controller import generate_disease_details
 
 router = APIRouter()
 
@@ -20,3 +21,8 @@ async def get_prediction_image(image_id: str):
     if not os.path.isfile(image_path):
         raise HTTPException(status_code=404, detail="Image not found")
     return StreamingResponse(open(image_path, "rb"), media_type="image/png")
+
+@router.get("/disease-details/{disease_name}")
+async def get_disease_details(disease_name: str):
+    details = generate_disease_details(disease_name)
+    return JSONResponse(content=details)
