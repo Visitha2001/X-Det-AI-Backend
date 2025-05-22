@@ -1,7 +1,7 @@
 from fastapi import APIRouter, UploadFile, File, HTTPException
 from fastapi.responses import StreamingResponse, JSONResponse
 import os
-from controller.controller import generate_prediction_plot
+from controller.Pred_controller import generate_prediction_plot
 
 router = APIRouter()
 
