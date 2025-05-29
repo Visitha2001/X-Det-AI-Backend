@@ -9,7 +9,7 @@ setup backend
 python -m venv tf_env
 python --version
 .\tf_env\Scripts\activate
-pip install "fastapi[all]" "motor[srv]" beanie aiostream numpy matplotlib pillow uvicorn tensorflow
+pip install "fastapi[all]" "motor[srv]" beanie aiostream numpy matplotlib pillow uvicorn tensorflow python-jose passlib[bcrypt] google.generativeai
 
 generate requirements files
 pip freeze > requirements.txt
