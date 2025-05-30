@@ -2,5 +2,5 @@ src/classification_model.h5
 __pycache__/
 *.py[cod]
 *$py.class
-tf_env/
+tf_env_stable/
 src/tmp_predictions/
