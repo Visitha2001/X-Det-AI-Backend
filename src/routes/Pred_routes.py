@@ -1,20 +1,37 @@
-from fastapi import APIRouter, UploadFile, File, HTTPException
+from fastapi import APIRouter, HTTPException
 from fastapi.responses import StreamingResponse, JSONResponse
 import os
+import requests
+from io import BytesIO
 from controller.Pred_controller import generate_prediction_plot
 from controller.detail_controller import generate_disease_details
 
 router = APIRouter()
 
-@router.post("/predict-image")
-async def predict_image(file: UploadFile = File(...)):
-    contents = await file.read()
-    image_id, top_5_list = generate_prediction_plot(contents)
-    return JSONResponse(content={
-        "image_url": f"/predict-image/{image_id}",
-        "top_5_diseases": top_5_list
-    })
+from pydantic import BaseModel
 
+class ImageUrlRequest(BaseModel):
+    image_url: str
+
+@router.post("/predict-image")
+async def predict_image_url(request: ImageUrlRequest):
+    try:
+        # Fetch the image from the URL
+        response = requests.get(request.image_url)
+        response.raise_for_status()
+        
+        # Rest of your code remains the same
+        image_content = response.content
+        image_id, top_5_list = generate_prediction_plot(image_content)
+        
+        return JSONResponse(content={
+            "image_url": f"/predict-image/{image_id}",
+            "top_5_diseases": top_5_list
+        })
+    except requests.exceptions.RequestException as e:
+        raise HTTPException(status_code=400, detail=f"Error fetching image from URL: {str(e)}")
+
+# Keep your existing endpoints
 @router.get("/predict-image/{image_id}")
 async def get_prediction_image(image_id: str):
     image_path = os.path.join("tmp_predictions", f"{image_id}.png")
