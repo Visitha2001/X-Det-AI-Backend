@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from routes.Pred_routes import router
 from routes.auth import router as auth_router
 from routes.entry import entry_root
+from routes.image_upload import router as image_router
 
 app = FastAPI()
 
@@ -18,6 +19,7 @@ app.add_middleware(
 app.include_router(entry_root)
 app.include_router(router)
 app.include_router(auth_router)
+app.include_router(image_router)
 
 from dotenv import load_dotenv
 import os
