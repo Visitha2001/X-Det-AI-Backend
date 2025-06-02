@@ -18,12 +18,14 @@ def get_disease_details_gemini(disease_name: str) -> Optional[str]:
     # No explicit API URL needed for google-generativeai client, it's handled internally
     # You might want to specify a model, e.g., "gemini-pro" or "gemini-1.5-flash"
     # Check https://ai.google.dev/models/gemini for available models and their capabilities.
-    model = genai.GenerativeModel('gemini-1.5-flash') # Using a common, cost-effective model
+    model = genai.GenerativeModel('gemini-2.0-flash-lite') # Using a common, cost-effective model
 
     prompt = (
         f"Provide a detailed medical explanation of {disease_name}, including: "
         "1. Definition\n2. Symptoms\n3. Causes\n4. Treatments\n5. Prevention methods\n"
         "Format the response in clear paragraphs with proper headings."
+        "If there are nested points, present them as ordered (numbered) sub-lists."
+        "i need this in sinhala(sinhala letters) and english languages separately."
     )
 
     try:
@@ -32,7 +34,7 @@ def get_disease_details_gemini(disease_name: str) -> Optional[str]:
             contents=[{"role": "user", "parts": [{"text": prompt}]}],
             generation_config=genai.GenerationConfig(
                 temperature=0.7,
-                max_output_tokens=1000 # Matches your DeepSeek max_tokens
+                max_output_tokens=4000
             )
         )
         return response.text
