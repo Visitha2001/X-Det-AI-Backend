@@ -5,6 +5,7 @@ from routes.auth import router as auth_router
 from routes.entry import entry_root
 from routes.image_upload import router as image_router
 from routes.result_routes import router as result_router
+from routes.disease_routes import router as disease_router
 
 app = FastAPI()
 
@@ -22,6 +23,7 @@ app.include_router(router)
 app.include_router(auth_router)
 app.include_router(image_router)
 app.include_router(result_router)
+app.include_router(disease_router)
 
 from dotenv import load_dotenv
 import os
