@@ -24,6 +24,7 @@ class Disease(BaseModel):
     symptoms: list[str]
     treatments: list[str]
     prevention: list[str]
+    imageUrl: str
     created_at: Optional[datetime] = None
     updated_at: Optional[datetime] = None
 
