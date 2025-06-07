@@ -55,3 +55,6 @@ async def search_diseases(query: str) -> List[Disease]:
     }):
         diseases.append(Disease(**disease))
     return diseases
+
+async def get_disease_count() -> int:
+    return diseases_collection.count_documents({})
