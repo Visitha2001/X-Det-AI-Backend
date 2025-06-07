@@ -5,7 +5,8 @@ from controller.disease_controller import (
     get_all_diseases,
     update_disease,
     delete_disease,
-    search_diseases
+    search_diseases,
+    get_disease_count
 )
 from models.disease_model import Disease
 from typing import List
@@ -19,6 +20,10 @@ router = APIRouter(
 @router.post("/", response_model=Disease)
 async def create_disease_route(disease: Disease):
     return await create_disease(disease)
+
+@router.get("/count", response_model=int)
+async def get_disease_count_route():
+    return await get_disease_count()
 
 @router.get("/", response_model=List[Disease])
 async def get_all_diseases_route():

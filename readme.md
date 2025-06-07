@@ -19,4 +19,6 @@ pip install google-generativeai
 
 to run
 .\tf_env_stable\Scripts\activate
+python --version
+cd src
 uvicorn main:app --reload --port 8002

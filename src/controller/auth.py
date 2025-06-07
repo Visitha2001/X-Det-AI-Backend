@@ -6,6 +6,8 @@ from models.user import UserInDB, UserCreate
 from config.security import verify_password, get_password_hash
 from config.config import db 
 from bson import ObjectId
+from typing import List
+from models.user import User
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 
@@ -81,3 +83,13 @@ def get_current_admin(token: str = Depends(oauth2_scheme)) -> UserInDB:
     if not getattr(user, "is_admin", False):
         raise HTTPException(status_code=403, detail="Admin access required")
     return user
+
+def get_all_users(current_admin: UserInDB = Depends(get_current_admin)):
+    users = []
+    for user_data in users_collection.find():
+        user_data["id"] = str(user_data.get("_id"))
+        users.append(User(**user_data))
+    return users
+
+def get_user_count(current_admin: UserInDB = Depends(get_current_admin)):
+    return {"count": users_collection.count_documents({})}
