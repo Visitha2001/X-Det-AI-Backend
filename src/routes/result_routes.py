@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Depends
-from controller.results_controller import create_result
+from controller.results_controller import create_result , get_user_results
 from controller.auth import get_current_user
 from models.result_model import ResultCreate
 from models.user import User
