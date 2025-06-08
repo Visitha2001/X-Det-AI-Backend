@@ -40,6 +40,66 @@
       {
         "question": "Can emphysema lead to other complications?",
         "answer": "Yes, possible complications include respiratory infections, pulmonary hypertension, heart problems, giant bullae (which can rupture), and respiratory failure."
+      },
+      {
+        "question": "What is alpha-1 antitrypsin deficiency?",
+        "answer": "It's a genetic disorder that can cause emphysema even in non-smokers, due to lack of a protein that protects lung tissue from damage by enzymes."
+      },
+      {
+        "question": "What is a barrel chest in emphysema?",
+        "answer": "A barrel-shaped chest is a physical sign where the chest becomes rounded and enlarged due to chronic air trapping in the lungs, seen in advanced emphysema."
+      },
+      {
+        "question": "How does emphysema affect lung function tests?",
+        "answer": "Emphysema typically shows increased total lung capacity, decreased diffusing capacity, and airflow obstruction (reduced FEV1/FVC ratio) on pulmonary function tests."
+      },
+      {
+        "question": "What surgical options exist for severe emphysema?",
+        "answer": "Options include lung volume reduction surgery (removing damaged portions), bullectomy (removing large bullae), or lung transplantation in select cases."
+      },
+      {
+        "question": "Can emphysema patients fly commercially?",
+        "answer": "Most can fly with precautions. Those with severe disease may need supplemental oxygen during flights due to reduced cabin pressure."
+      },
+      {
+        "question": "What is the role of pulmonary rehabilitation in emphysema?",
+        "answer": "Pulmonary rehab improves quality of life through exercise training, breathing techniques, nutrition counseling, and education about managing the disease."
+      },
+      {
+        "question": "How does emphysema affect oxygen levels?",
+        "answer": "Early emphysema may maintain normal oxygen levels. Advanced disease often causes low oxygen (hypoxemia) due to impaired gas exchange in damaged alveoli."
+      },
+      {
+        "question": "What are bullae in emphysema?",
+        "answer": "Bullae are large air spaces that form when alveolar walls are destroyed. They can occupy lung space and sometimes rupture, causing pneumothorax."
+      },
+      {
+        "question": "Can emphysema be detected early before symptoms appear?",
+        "answer": "CT scans can detect early emphysema before symptoms or X-ray changes, but routine screening isn't recommended except for high-risk individuals."
+      },
+      {
+        "question": "How does emphysema affect the heart?",
+        "answer": "Advanced emphysema can cause pulmonary hypertension, leading to right heart strain (cor pulmonale) as the heart works harder to pump blood through damaged lungs."
+      },
+      {
+        "question": "What is the prognosis for emphysema?",
+        "answer": "Prognosis varies. Smoking cessation slows progression. The BODE index (BMI, airflow Obstruction, Dyspnea, Exercise capacity) helps predict survival."
+      },
+      {
+        "question": "Can vaping cause emphysema?",
+        "answer": "While less studied than cigarettes, vaping may damage lung tissue and contribute to emphysema. The long-term effects are still being researched."
+      },
+      {
+        "question": "What is paraseptal emphysema?",
+        "answer": "A type where damage occurs mainly near the pleura, often causing bullae at lung edges. It may lead to spontaneous pneumothorax in young adults."
+      },
+      {
+        "question": "How often should emphysema patients see their doctor?",
+        "answer": "Typically every 3-6 months for stable cases, more frequently during exacerbations or if symptoms worsen. Annual flu shots and regular spirometry are recommended."
+      },
+      {
+        "question": "Can emphysema patients exercise?",
+        "answer": "Yes, regular exercise is beneficial but should be paced. Pulmonary rehab programs help patients exercise safely while managing breathlessness."
       }
     ],
     "Infiltration": [
@@ -82,6 +142,66 @@
       {
         "question": "How quickly do infiltrates resolve with treatment?",
         "answer": "Resolution time varies. Bacterial pneumonia may show improvement in 1-2 weeks, while viral or atypical pneumonia may take longer. Chronic conditions might cause persistent infiltrates."
+      },
+      {
+        "question": "What is the difference between alveolar and interstitial infiltrates?",
+        "answer": "Alveolar infiltrates fill air spaces (appearing fluffy), while interstitial infiltrates affect the lung scaffolding (appearing as lines or networks). Some diseases show both patterns."
+      },
+      {
+        "question": "Can allergies cause pulmonary infiltrates?",
+        "answer": "Yes, hypersensitivity pneumonitis (allergic lung inflammation) can cause infiltrates, often with a ground-glass appearance on CT, typically from inhaled organic dusts or molds."
+      },
+      {
+        "question": "What are migratory infiltrates?",
+        "answer": "Infiltrates that shift location over time, seen in conditions like eosinophilic pneumonia, allergic bronchopulmonary aspergillosis, or some parasitic infections."
+      },
+      {
+        "question": "How do viral pneumonia infiltrates differ from bacterial?",
+        "answer": "Viral pneumonias often show bilateral, patchy interstitial infiltrates, while bacterial pneumonias typically cause localized alveolar infiltrates or lobar consolidation."
+      },
+      {
+        "question": "What is a 'tree-in-bud' pattern on CT?",
+        "answer": "It appears as small branching opacities resembling budding trees, typically seen in endobronchial spread of infection (like tuberculosis or bacterial bronchitis)."
+      },
+      {
+        "question": "Can asthma cause pulmonary infiltrates?",
+        "answer": "Typically no, but severe asthma attacks can sometimes show transient infiltrates from atelectasis or mucus plugging. Persistent infiltrates in asthma suggest complications."
+      },
+      {
+        "question": "What are chronic infiltrates?",
+        "answer": "Infiltrates persisting beyond 4-6 weeks suggest chronic conditions like tuberculosis, fungal infections, malignancies, or idiopathic interstitial pneumonias."
+      },
+      {
+        "question": "How does aspiration cause infiltrates?",
+        "answer": "Aspiration often causes infiltrates in dependent lung regions (right lower lobe commonest). Chemical pneumonitis appears quickly, while infection may develop later."
+      },
+      {
+        "question": "What is 'ground-glass opacity'?",
+        "answer": "A hazy increased lung density that doesn't obscure bronchial structures, seen in many conditions including early pneumonia, edema, or interstitial lung diseases."
+      },
+      {
+        "question": "Can pulmonary embolism cause infiltrates?",
+        "answer": "Not typically, but pulmonary infarction (from large embolism) may cause wedge-shaped peripheral infiltrates (Hampton's hump) after 12-24 hours."
+      },
+      {
+        "question": "What are 'reticulonodular infiltrates'?",
+        "answer": "A pattern combining reticular (net-like) and nodular (small rounded) opacities, seen in interstitial lung diseases, lymphangitic spread of cancer, or miliary tuberculosis."
+      },
+      {
+        "question": "How does radiation therapy affect lung infiltrates?",
+        "answer": "Radiation pneumonitis causes infiltrates conforming to the treatment field, typically appearing 1-6 months post-radiation, which may progress to fibrosis."
+      },
+      {
+        "question": "What drugs can cause pulmonary infiltrates?",
+        "answer": "Many drugs including chemotherapy agents, amiodarone, nitrofurantoin, and some antibiotics can cause infiltrates through hypersensitivity, toxicity, or organizing pneumonia."
+      },
+      {
+        "question": "Can sarcoidosis cause infiltrates?",
+        "answer": "Yes, sarcoidosis typically causes bilateral hilar lymphadenopathy with interstitial infiltrates, often in an upper lobe distribution."
+      },
+      {
+        "question": "What is 'crazy-paving' pattern?",
+        "answer": "A CT finding of ground-glass opacity with superimposed interlobular septal thickening, seen in alveolar proteinosis, COVID-19, and some other diffuse lung diseases."
       }
     ],
     "Pleural_Thickening": [
@@ -124,6 +244,66 @@
       {
         "question": "Is pleural thickening reversible?",
         "answer": "Established fibrosis is generally not reversible, but early inflammatory changes may resolve with treatment of the underlying cause."
+      },
+      {
+        "question": "What is diffuse pleural thickening?",
+        "answer": "Extensive thickening involving large portions of the pleura, often from severe inflammation or asbestos exposure, sometimes causing restrictive lung impairment."
+      },
+      {
+        "question": "How does tuberculosis cause pleural thickening?",
+        "answer": "TB pleuritis leads to inflammation that can organize into fibrous tissue, often causing thick pleural rind, sometimes with calcification in chronic cases."
+      },
+      {
+        "question": "What is 'pleural plaque'?",
+        "answer": "Discrete areas of fibrous thickening, typically from asbestos exposure, often calcified, occurring mainly on the parietal pleura of the chest wall and diaphragm."
+      },
+      {
+        "question": "Can pleural thickening cause pain?",
+        "answer": "Yes, some patients experience pleuritic pain (worsened by breathing) from inflammation, or chronic ache from fibrosis irritating nerve endings."
+      },
+      {
+        "question": "What imaging best evaluates pleural thickening?",
+        "answer": "CT is superior to X-ray for characterizing extent, pattern, and associated findings. MRI may help assess for malignancy in uncertain cases."
+      },
+      {
+        "question": "How does asbestos cause pleural thickening?",
+        "answer": "Asbestos fibers reach the pleura, causing chronic inflammation leading to fibrosis. This may occur 20+ years after exposure, often with plaques or diffuse thickening."
+      },
+      {
+        "question": "What is 'rounded atelectasis'?",
+        "answer": "A benign lung collapse adjacent to pleural thickening, forming a round mass-like lesion with characteristic 'comet tail' vessels on CT, mimicking tumor."
+      },
+      {
+        "question": "Can autoimmune diseases cause pleural thickening?",
+        "answer": "Yes, rheumatoid arthritis and lupus can cause pleural inflammation leading to thickening, often with effusions in active phases."
+      },
+      {
+        "question": "What is 'fibrothorax'?",
+        "answer": "Severe, extensive pleural fibrosis encasing the lung, causing significant restriction. May require decortication surgery if causing severe symptoms."
+      },
+      {
+        "question": "How is malignant pleural thickening diagnosed?",
+        "answer": "Requires biopsy showing cancer cells. Features suggesting malignancy include nodularity, mediastinal involvement, rapid progression, and associated effusion."
+      },
+      {
+        "question": "Can hemothorax lead to pleural thickening?",
+        "answer": "Yes, unresolved blood in the pleural space can organize into fibrous tissue, sometimes causing substantial thickening (fibrothorax) if not adequately drained."
+      },
+      {
+        "question": "What is 'pleural peel'?",
+        "answer": "A thick layer of fibrous tissue covering the lung, seen in chronic empyema or hemothorax, which may require surgical decortication to allow lung re-expansion."
+      },
+      {
+        "question": "How does radiation therapy affect the pleura?",
+        "answer": "Radiation can cause pleural thickening within the treatment field, typically appearing months after therapy, sometimes with effusion."
+      },
+      {
+        "question": "Can medications cause pleural thickening?",
+        "answer": "Certain drugs (like bromocriptine or ergot alkaloids) can rarely cause pleural fibrosis, usually reversible upon discontinuation."
+      },
+      {
+        "question": "What is the prognosis for benign pleural thickening?",
+        "answer": "Generally good if asymptomatic. Progressive cases may cause mild-moderate restriction but rarely severe respiratory impairment unless very extensive."
       }
     ],
     "Pneumothorax": [
@@ -166,6 +346,66 @@
       {
         "question": "Can you fly with a pneumothorax?",
         "answer": "No, air travel is contraindicated until complete resolution confirmed by X-ray, typically after 2-3 weeks, due to risk of expansion at altitude."
+      },
+      {
+        "question": "What is a primary spontaneous pneumothorax?",
+        "answer": "Occurs without known lung disease, typically in tall, thin young males due to rupture of small blebs at lung apices. Smoking is a major risk factor."
+      },
+      {
+        "question": "What is a secondary spontaneous pneumothorax?",
+        "answer": "Occurs with underlying lung disease like COPD, cystic fibrosis, or tuberculosis. More dangerous as patients have less respiratory reserve."
+      },
+      {
+        "question": "How is pneumothorax size measured?",
+        "answer": "By measuring the distance from lung edge to chest wall. >2cm at hilum or >3cm at apex often defines 'large' pneumothorax requiring intervention."
+      },
+      {
+        "question": "What is a 'occult pneumothorax'?",
+        "answer": "One not visible on chest X-ray but detected on CT scan. Common in trauma patients, often managed conservatively if small and patient is stable."
+      },
+      {
+        "question": "What is 'pleurodesis' for recurrent pneumothorax?",
+        "answer": "A procedure causing pleural inflammation to stick the lung to chest wall, preventing recurrence. Can be chemical (talc/doxycycline) or surgical."
+      },
+      {
+        "question": "Can mechanical ventilation cause pneumothorax?",
+        "answer": "Yes, positive pressure ventilation increases risk, especially with high pressures or in diseases like ARDS. This is a barotrauma emergency."
+      },
+      {
+        "question": "What is a 'catamenial pneumothorax'?",
+        "answer": "Recurrent pneumothorax occurring within 72 hours of menstruation, associated with thoracic endometriosis, typically right-sided."
+      },
+      {
+        "question": "How does pneumothorax appear on ultrasound?",
+        "answer": "Absence of lung sliding and comet-tail artifacts suggests pneumothorax. Useful in emergency settings but can't estimate size like CT."
+      },
+      {
+        "question": "What is a 'hydropneumothorax'?",
+        "answer": "Presence of both air and fluid in the pleural space, appearing on X-ray with an air-fluid level. Requires drainage of both components."
+      },
+      {
+        "question": "Can scuba diving cause pneumothorax?",
+        "answer": "Yes, pressure changes can rupture blebs. Prior pneumothorax contraindicates diving unless surgically corrected with long-term follow-up confirming resolution."
+      },
+      {
+        "question": "What is 're-expansion pulmonary edema'?",
+        "answer": "A rare complication after rapid lung re-expansion, causing fluid leakage into the lung. More likely with large or chronic pneumothorax drained too quickly."
+      },
+      {
+        "question": "How is small pneumothorax managed?",
+        "answer": "Small (<2cm), stable primary pneumothorax may be managed with observation and oxygen (which accelerates absorption). Follow-up X-rays ensure resolution."
+      },
+      {
+        "question": "What is 'pneumomediastinum' vs pneumothorax?",
+        "answer": "Pneumomediastinum is air in mediastinum, often from alveolar rupture tracking along airways. Less dangerous than pneumothorax unless massive."
+      },
+      {
+        "question": "Can pneumothorax cause long-term damage?",
+        "answer": "Usually not unless associated with trauma/surgery. Recurrent episodes may lead to pleural thickening. Tension pneumothorax can be fatal if untreated."
+      },
+      {
+        "question": "What sports should pneumothorax patients avoid?",
+        "answer": "Activities with pressure changes (scuba, skydiving) or contact sports. Generally safe after full recovery unless recurrent, then individual assessment needed."
       }
     ],
     "Cardiomegaly": [
@@ -208,6 +448,66 @@
       {
         "question": "How often should cardiomegaly be monitored?",
         "answer": "Monitoring frequency depends on the cause and severity, ranging from every few months to annually for stable cases, with more frequent follow-up if symptomatic."
+      },
+      {
+        "question": "What is 'left ventricular hypertrophy'?",
+        "answer": "Thickening of the heart's main pumping chamber, often from hypertension or aortic stenosis. Appears as enlarged cardiac silhouette with prominent left heart border."
+      },
+      {
+        "question": "How does heart failure cause cardiomegaly?",
+        "answer": "The heart dilates to compensate for reduced pumping ability, causing generalized enlargement. Pulmonary vascular congestion often accompanies cardiomegaly in failure."
+      },
+      {
+        "question": "What is 'cor pulmonale'?",
+        "answer": "Right heart enlargement from lung disease (like COPD) causing pulmonary hypertension. Shows prominent right heart border and enlarged pulmonary arteries."
+      },
+      {
+        "question": "Can obesity affect heart size on X-ray?",
+        "answer": "Yes, obesity can cause apparent cardiomegaly from fat deposition and elevated diaphragm making heart appear larger. Echocardiogram helps distinguish true enlargement."
+      },
+      {
+        "question": "What is the 'cardiothoracic ratio'?",
+        "answer": "The ratio of maximal horizontal heart diameter to maximal internal thoracic diameter on PA chest X-ray. Normal is <50% in adults, <60% in neonates."
+      },
+      {
+        "question": "How does aortic regurgitation cause cardiomegaly?",
+        "answer": "Chronic leakage causes volume overload, dilating the left ventricle. Shows prominent left ventricle with descending aorta dilation ('boot-shaped' heart)."
+      },
+      {
+        "question": "What is 'dilated cardiomyopathy'?",
+        "answer": "Condition where heart chambers enlarge and weaken, causing global cardiomegaly. Causes include viral, alcohol, genetic, or idiopathic factors."
+      },
+      {
+        "question": "Can pregnancy cause cardiomegaly?",
+        "answer": "Yes, mild cardiac enlargement is normal in pregnancy due to increased blood volume. Usually resolves postpartum unless preexisting heart disease exists."
+      },
+      {
+        "question": "What is 'athlete's heart'?",
+        "answer": "Physiological adaptation to training with mildly enlarged chambers and thickened walls. Differentiated from pathology by normal function and regression with detraining."
+      },
+      {
+        "question": "How does mitral stenosis affect heart size?",
+        "answer": "Causes left atrial enlargement (seen as double right heart border) with normal or small left ventricle. Pulmonary artery may also enlarge from hypertension."
+      },
+      {
+        "question": "What is 'pericardial effusion' vs cardiomegaly?",
+        "answer": "Effusion is fluid around the heart causing globular enlargement with sharp borders ('water bottle' shape). Heart chambers aren't actually enlarged initially."
+      },
+      {
+        "question": "Can anemia cause cardiomegaly?",
+        "answer": "Chronic severe anemia can cause high-output heart failure with cardiomegaly due to increased cardiac workload. Treating anemia may reverse changes."
+      },
+      {
+        "question": "What is 'hypertrophic cardiomyopathy'?",
+        "answer": "Condition with thickened ventricular walls (especially septum) but small chambers. May not cause radiographic cardiomegaly despite being serious."
+      },
+      {
+        "question": "How does aging affect heart size?",
+        "answer": "Mild left ventricular thickening is common with aging, but significant cardiomegaly is never 'normal' and requires evaluation."
+      },
+      {
+        "question": "What is 'Ebstein's anomaly'?",
+        "answer": "Congenital defect causing massive right atrial enlargement ('wall-to-wall' heart appearance). Rare but dramatic radiographic finding."
       }
     ],
     "No_Finding": [
@@ -250,6 +550,66 @@
       {
         "question": "Should I keep my normal chest X-ray results?",
         "answer": "Yes, retain copies of all imaging reports and consider keeping the images. They provide a baseline for comparison if future health issues arise."
+      },
+      {
+        "question": "What is the 'silhouette sign' in chest X-rays?",
+        "answer": "A useful sign where loss of normal borders between structures (like heart and lung) indicates pathology in that region, even if the abnormality itself isn't clearly visible."
+      },
+      {
+        "question": "Can pulmonary embolism show normal chest X-ray?",
+        "answer": "Yes, most PEs have normal or nonspecific X-ray findings. Classic findings like Hampton's hump or Westermark sign are rare. CT angiography is diagnostic."
+      },
+      {
+        "question": "What percentage of lung cancers are missed on initial chest X-ray?",
+        "answer": "Studies suggest 20-30% of visible lung cancers are missed on initial interpretation, often due to overlapping structures or subtle findings."
+      },
+      {
+        "question": "How does inspiration affect chest X-ray interpretation?",
+        "answer": "Poor inspiration can mimic disease by causing apparent increased lung markings and basal opacities. Adequate inspiration shows 5-6 anterior ribs above diaphragm."
+      },
+      {
+        "question": "Can asthma cause abnormal chest X-ray?",
+        "answer": "Typically no, but severe attacks may show hyperinflation. Persistent abnormalities suggest complications like pneumonia or pneumothorax."
+      },
+      {
+        "question": "What is 'subsegmental atelectasis' on X-ray?",
+        "answer": "Small areas of lung collapse appearing as linear densities, often at bases. Common incidental finding of little clinical significance if asymptomatic."
+      },
+      {
+        "question": "How often do normal variants mimic disease on chest X-ray?",
+        "answer": "Frequently - rib variants, vascular shadows, or muscle folds often mimic nodules or infiltrates. Experienced radiologists recognize these benign patterns."
+      },
+      {
+        "question": "Can chronic obstructive pulmonary disease have normal X-ray?",
+        "answer": "Early COPD may have normal X-rays. Advanced disease typically shows hyperinflation, flattened diaphragms, and attenuated vessels, but clinical correlation is key."
+      },
+      {
+        "question": "What is 'scout' X-ray before CT?",
+        "answer": "A preliminary X-ray taken before CT to plan the study. While not optimized for diagnosis, significant findings are sometimes noted incidentally."
+      },
+      {
+        "question": "How does body habitus affect chest X-ray interpretation?",
+        "answer": "Obesity increases soft tissue density, while cachexia increases lung lucency. These can affect apparent heart size and lung parenchymal appearance."
+      },
+      {
+        "question": "Can interstitial lung disease have normal chest X-ray?",
+        "answer": "Early stages often do. High-resolution CT is far more sensitive for detecting early interstitial changes before they're radiographically apparent."
+      },
+      {
+        "question": "What is 'overpenetrated' chest X-ray?",
+        "answer": "Technique with high kV making lungs appear blacker, potentially masking subtle infiltrates. Proper technique shows faint vertebral disc spaces behind heart."
+      },
+      {
+        "question": "How common are incidental findings on normal chest X-rays?",
+        "answer": "Very common - studies show 30-50% of 'normal' X-rays have minor incidental findings like granulomas or mild degenerative changes, usually insignificant."
+      },
+      {
+        "question": "What is 'AP lordotic' view?",
+        "answer": "Special view to better visualize lung apices by angling the X-ray beam upward. Helps evaluate possible apical disease when PA view is normal but suspicion remains."
+      },
+      {
+        "question": "Can heart failure have normal chest X-ray?",
+        "answer": "Early or mild cases may, especially if prior films aren't available for comparison. Ultrasound often more sensitive for detecting early cardiac dysfunction."
       }
     ],
     "Atelectasis": [
@@ -292,6 +652,66 @@
       {
         "question": "What complications can atelectasis cause?",
         "answer": "Possible complications include pneumonia, hypoxemia, respiratory failure in extensive cases, and bronchiectasis if chronic."
+      },
+      {
+        "question": "What is 'round atelectasis'?",
+        "answer": "A unique form appearing as a rounded mass adjacent to pleural thickening, with characteristic 'comet tail' vessels curving into it. Common in asbestos exposure."
+      },
+      {
+        "question": "How does atelectasis appear differently on CT vs X-ray?",
+        "answer": "CT better shows small areas of atelectasis, differentiates from consolidation, and identifies underlying causes like small airways obstructions not visible on X-ray."
+      },
+      {
+        "question": "What is 'relaxation atelectasis'?",
+        "answer": "Collapse due to space-occupying lesions like pneumothorax or large effusion compressing the lung. Treating the primary condition allows re-expansion."
+      },
+      {
+        "question": "Can atelectasis cause fever?",
+        "answer": "Yes, 'atelectatic fever' may occur from retained secretions, usually low-grade. High fever suggests superimposed infection requiring antibiotics."
+      },
+      {
+        "question": "What is 'resorptive atelectasis'?",
+        "answer": "Collapse occurring when airways are obstructed and trapped alveolar air is absorbed. Common with mucus plugs or foreign bodies."
+      },
+      {
+        "question": "How does lobar atelectasis appear on X-ray?",
+        "answer": "Each lobe has characteristic patterns: right upper lobe elevates horizontal fissure, left upper lobe causes 'veil-like' opacity, lower lobes displace oblique fissures posteriorly."
+      },
+      {
+        "question": "Can atelectasis be permanent?",
+        "answer": "Chronic atelectasis (>6 months) may become permanent due to fibrosis. Early treatment improves chances of complete re-expansion."
+      },
+      {
+        "question": "What is 'cicatrization atelectasis'?",
+        "answer": "Collapse due to lung scarring from conditions like tuberculosis or fibrosis, causing permanent volume loss. Different from reversible forms of atelectasis."
+      },
+      {
+        "question": "How does atelectasis affect oxygenation?",
+        "answer": "Small areas have minimal effect. Extensive atelectasis causes shunting (blood flows through non-aerated lung), leading to significant hypoxemia."
+      },
+      {
+        "question": "What is 'passive atelectasis'?",
+        "answer": "Another term for relaxation atelectasis, where lung collapses due to external compression rather than internal obstruction."
+      },
+      {
+        "question": "Can asthma cause atelectasis?",
+        "answer": "Yes, mucus plugging in severe asthma can lead to atelectasis, typically subsegmental. Widespread atelectasis suggests impending respiratory failure."
+      },
+      {
+        "question": "What is 'adhesive atelectasis'?",
+        "answer": "Collapse due to surfactant deficiency, seen in ARDS, radiation pneumonitis, or neonatal RDS. Alveoli stick together rather than collapsing from obstruction."
+      },
+      {
+        "question": "How is middle lobe atelectasis unique?",
+        "answer": "The right middle lobe is particularly prone to chronic atelectasis ('middle lobe syndrome') due to its narrow bronchus and poor collateral ventilation."
+      },
+      {
+        "question": "Can atelectasis cause mediastinal shift?",
+        "answer": "Large atelectasis causes shift toward the affected side, while effusion/pneumothorax cause shift away. Helps differentiate these on X-ray."
+      },
+      {
+        "question": "What is 'laminar atelectasis'?",
+        "answer": "Also called plate or discoid atelectasis - thin horizontal linear densities at lung bases, common post-op or in shallow breathing states."
       }
     ],
     "Edema": [
@@ -334,6 +754,66 @@
       {
         "question": "How quickly can pulmonary edema develop?",
         "answer": "Cardiogenic edema can develop over minutes to hours in acute cases. Non-cardiogenic forms may develop over hours to days depending on the cause."
+      },
+      {
+        "question": "What are 'Kerley B lines'?",
+        "answer": "Short horizontal lines at lung bases representing interlobular septal thickening from fluid, characteristic of interstitial edema on chest X-ray."
+      },
+      {
+        "question": "What is 'flash pulmonary edema'?",
+        "answer": "Sudden severe cardiogenic edema often from acute cardiac ischemia or severe hypertension. Requires immediate treatment with nitrates, diuretics, and sometimes ventilation."
+      },
+      {
+        "question": "How does ARDS differ from cardiogenic edema?",
+        "answer": "ARDS causes diffuse alveolar damage with non-cardiogenic edema, appearing as bilateral infiltrates without cardiomegaly or vascular redistribution seen in heart failure."
+      },
+      {
+        "question": "What is 'neurogenic pulmonary edema'?",
+        "answer": "Edema following CNS injury (like head trauma or seizures), likely from massive sympathetic discharge increasing pulmonary vascular pressure."
+      },
+      {
+        "question": "Can pulmonary edema be unilateral?",
+        "answer": "Rarely, typically when patient lies predominantly on one side ('dependent edema'), or with unilateral vascular/lymphatic abnormalities."
+      },
+      {
+        "question": "What is 're-expansion pulmonary edema'?",
+        "answer": "Rare complication after rapid reinflation of collapsed lung (from pneumothorax or effusion drainage), causing edema in the re-expanded lung."
+      },
+      {
+        "question": "How does high altitude cause pulmonary edema?",
+        "answer": "Hypoxia induces uneven pulmonary vasoconstriction, increasing capillary pressure in non-constricted areas, causing fluid leakage (HAPE). Treat with descent and oxygen."
+      },
+      {
+        "question": "What is 'negative pressure pulmonary edema'?",
+        "answer": "Occurs after relief of upper airway obstruction (like post-extubation laryngospasm), where forceful inspiratory efforts create extreme negative intrathoracic pressure."
+      },
+      {
+        "question": "Can opioids cause pulmonary edema?",
+        "answer": "Yes, opioid overdose can cause non-cardiogenic edema, possibly from hypoxia-induced capillary damage or direct toxicity. Often resolves with naloxone and oxygen."
+      },
+      {
+        "question": "What is 'uremic pulmonary edema'?",
+        "answer": "Edema in renal failure from fluid overload combined with increased capillary permeability from uremic toxins. Shows 'bat wing' pattern like cardiogenic edema."
+      },
+      {
+        "question": "How does pulmonary edema affect oxygenation?",
+        "answer": "Fluid in alveoli impairs gas exchange, causing hypoxemia. Severe cases may require high-flow oxygen, CPAP, or mechanical ventilation to maintain oxygenation."
+      },
+      {
+        "question": "What is 'peribronchial cuffing'?",
+        "answer": "X-ray finding of thickened bronchial walls appearing as ring shadows, seen in interstitial edema as fluid accumulates in peribronchial connective tissue."
+      },
+      {
+        "question": "Can pulmonary edema cause pleural effusions?",
+        "answer": "Yes, especially in cardiogenic edema where increased venous pressure leads to transudative bilateral effusions, often larger on the right."
+      },
+      {
+        "question": "What is 'silent pulmonary edema'?",
+        "answer": "Radiographic evidence of edema without obvious symptoms, sometimes seen in chronic heart failure patients who have adapted to gradual fluid accumulation."
+      },
+      {
+        "question": "How does pregnancy increase pulmonary edema risk?",
+        "answer": "Increased blood volume and preeclampsia can predispose to cardiogenic edema. Tocolytic drugs used for preterm labor may also cause non-cardiogenic edema."
       }
     ],
     "Effusion": [
@@ -376,6 +856,66 @@
       {
         "question": "What does a loculated effusion mean?",
         "answer": "Loculated effusions are walled-off by adhesions, often seen in empyema or hemothorax. They appear as fixed, non-dependent opacities and may require surgical drainage."
+      },
+      {
+        "question": "What is a 'subpulmonic effusion'?",
+        "answer": "Fluid collecting between lung base and diaphragm, appearing as elevated 'diaphragm' on X-ray. The peak of the 'diaphragm' is lateralized in this condition."
+      },
+      {
+        "question": "How does Light's criteria distinguish transudates/exudates?",
+        "answer": "Exudates meet ≥1 of: pleural/serum protein >0.5, pleural/serum LDH >0.6, or pleural LDH >2/3 upper normal serum limit. Transudates meet none."
+      },
+      {
+        "question": "What is a 'chylothorax'?",
+        "answer": "Milky effusion from thoracic duct leakage, containing chyle (lymphatic fluid rich in triglycerides). Causes include trauma, surgery, or lymphoma."
+      },
+      {
+        "question": "Can pulmonary embolism cause pleural effusion?",
+        "answer": "Yes, typically small unilateral exudative effusions. Large effusions suggest infarction or alternative/complicating diagnoses."
+      },
+      {
+        "question": "What is 'pseudochylothorax'?",
+        "answer": "Milky effusion from chronic inflammation (e.g., TB, rheumatoid) with cholesterol crystals, not chyle. Distinguished by high cholesterol, low triglycerides."
+      },
+      {
+        "question": "How does TB cause pleural effusion?",
+        "answer": "TB effusions are exudative, lymphocytic-predominant, with high ADA levels. Often unilateral, can occur with or without radiographic pulmonary TB."
+      },
+      {
+        "question": "What is 'empyema'?",
+        "answer": "Pus in the pleural space, a serious infection requiring drainage. Appears as loculated effusion with thickened pleura. May develop from pneumonia or surgery."
+      },
+      {
+        "question": "Can cirrhosis cause pleural effusion?",
+        "answer": "Yes, hepatic hydrothorax is transudative, usually right-sided (85%), from diaphragmatic defects allowing ascites into chest. Treat with salt restriction and diuretics."
+      },
+      {
+        "question": "What is 'Meigs' syndrome'?",
+        "answer": "Triad of ovarian fibroma, ascites, and pleural effusion (usually right-sided). Effusion resolves after tumor removal."
+      },
+      {
+        "question": "How does rheumatoid arthritis affect pleura?",
+        "answer": "Can cause chronic exudative effusions with low glucose, high LDH, and sometimes very low pH. More common in men with rheumatoid arthritis."
+      },
+      {
+        "question": "What is 'pancreatic pleural effusion'?",
+        "answer": "Left-sided effusion with very high amylase, from pancreatic duct disruption allowing pancreatic enzymes to track into chest, often with pseudocyst."
+      },
+      {
+        "question": "Can lupus cause pleural effusion?",
+        "answer": "Yes, SLE commonly causes small bilateral exudative effusions, often during disease flares. Fluid shows LE cells and low complement levels."
+      },
+      {
+        "question": "What is 'yellow nail syndrome'?",
+        "answer": "Rare condition with yellow nails, lymphedema, and pleural effusions (often bilateral) from lymphatic dysfunction."
+      },
+      {
+        "question": "How does mesothelioma present radiographically?",
+        "answer": "Typically unilateral effusion with nodular or irregular pleural thickening. Often associated with asbestos exposure history."
+      },
+      {
+        "question": "What is 'trapped lung'?",
+        "answer": "Non-expandable lung due to pleural fibrosis, causing persistent effusion despite drainage. Diagnosed when pleural pressure becomes very negative during thoracentesis."
       }
     ],
     "Consolidation": [
@@ -418,6 +958,66 @@
       {
         "question": "When should a CT be done for consolidation?",
         "answer": "CT may be needed if: symptoms persist despite treatment, recurrent consolidation in same area (possible obstruction), or when atypical features suggest alternative diagnoses."
+      },
+      {
+        "question": "What is 'lobar pneumonia'?",
+        "answer": "Pneumonia consolidating an entire lobe, classically caused by Streptococcus pneumoniae. Shows homogeneous opacity with air bronchograms, respecting fissure boundaries."
+      },
+      {
+        "question": "How does viral pneumonia differ radiographically?",
+        "answer": "Viral pneumonias often show patchy bilateral consolidations or interstitial patterns rather than dense lobar consolidation. May have peribronchial distribution."
+      },
+      {
+        "question": "What is 'organizing pneumonia'?",
+        "answer": "A pattern of inflammation where buds of granulation tissue fill alveoli and bronchioles. Appears as patchy consolidations, often migratory. Can be cryptogenic or secondary."
+      },
+      {
+        "question": "Can pulmonary infarction cause consolidation?",
+        "answer": "Yes, from pulmonary embolism with infarction causes wedge-shaped peripheral consolidation (Hampton's hump), typically appearing 12-24 hours post-embolism."
+      },
+      {
+        "question": "What is 'golden pneumonia'?",
+        "answer": "Consolidation with cavitation due to Klebsiella pneumoniae infection, more common in alcoholics. The 'golden' refers to thick bloody sputum characteristic of this infection."
+      },
+      {
+        "question": "How does aspiration pneumonia appear on X-ray?",
+        "answer": "Typically in dependent lung regions (posterior upper lobes or lower lobes). Chemical pneumonitis appears quickly, while infectious aspiration may take days to manifest."
+      },
+      {
+        "question": "What is 'chronic eosinophilic pneumonia'?",
+        "answer": "A condition causing peripheral consolidations ('photographic negative of pulmonary edema'), often with blood eosinophilia. Responds dramatically to steroids."
+      },
+      {
+        "question": "Can lymphoma cause consolidation?",
+        "answer": "Yes, pulmonary lymphoma may appear as consolidations with air bronchograms, sometimes containing necrotic areas. Often associated with mediastinal lymphadenopathy."
+      },
+      {
+        "question": "What is 'lipoid pneumonia'?",
+        "answer": "Consolidation from aspirated oils (mineral oil, nasal drops). Shows low attenuation on CT due to fat content. May develop slowly with chronic aspiration."
+      },
+      {
+        "question": "How does tuberculosis cause consolidation?",
+        "answer": "Primary TB often causes middle/lower lobe consolidation with hilar adenopathy. Reactivation TB typically causes apical/posterior upper lobe consolidations with cavitation."
+      },
+      {
+        "question": "What is 'round atelectasis' vs consolidation?",
+        "answer": "Round atelectasis appears mass-like but has characteristic 'comet tail' vessels and adjacent pleural thickening. True neoplastic consolidations lack these features."
+      },
+      {
+        "question": "Can metastases cause consolidations?",
+        "answer": "Certain metastases (especially adenocarcinoma) can grow along alveoli ('lepidic growth'), appearing as consolidations rather than discrete nodules."
+      },
+      {
+        "question": "What is 'alveolar proteinosis'?",
+        "answer": "Rare disease where surfactant accumulates in alveoli, causing bilateral consolidations with 'crazy-paving' pattern on CT. Treated with whole lung lavage."
+      },
+      {
+        "question": "How does radiation pneumonitis appear?",
+        "answer": "Consolidation conforming to radiation field, typically appearing 1-6 months post-treatment. May progress to fibrosis with volume loss in same distribution."
+      },
+      {
+        "question": "What is 'acute interstitial pneumonia'?",
+        "answer": "A rapidly progressive form of lung injury causing diffuse consolidations similar to ARDS but without identifiable cause. Has high mortality despite treatment."
       }
     ],
     "Mass": [
@@ -460,6 +1060,66 @@
       {
         "question": "What is a Pancoast tumor?",
         "answer": "A Pancoast tumor is a lung cancer mass in the apex (top) of the lung that may invade nearby structures, causing shoulder/arm pain and Horner's syndrome (ptosis, miosis, anhidrosis)."
+      },
+      {
+        "question": "What is a 'hamartoma'?",
+        "answer": "A common benign lung tumor containing disorganized normal tissues (cartilage, fat, epithelium). May show 'popcorn' calcification and fat density on CT."
+      },
+      {
+        "question": "How do metastatic lung masses differ from primary?",
+        "answer": "Metastases are often multiple, well-circumscribed, located peripherally. Certain primaries (like renal cell) may cause solitary metastasis mimicking primary lung cancer."
+      },
+      {
+        "question": "What is 'cavitation' in a lung mass?",
+        "answer": "Necrosis creating an air-filled center, seen in squamous cell carcinoma, infections (abscess, TB), or some metastases. Wall thickness helps differentiate benign/malignant."
+      },
+      {
+        "question": "Can inflammatory conditions cause lung masses?",
+        "answer": "Yes, granulomatosis with polyangiitis, rheumatoid nodules, or organizing pneumonia can appear mass-like. Clinical correlation and sometimes biopsy are needed."
+      },
+      {
+        "question": "What is 'bronchial carcinoid'?",
+        "answer": "A low-grade neuroendocrine tumor often appearing as a central hilar mass, sometimes causing obstruction or hemoptysis. Generally has better prognosis than lung cancer."
+      },
+      {
+        "question": "How does lymphoma appear in the lungs?",
+        "answer": "Primary pulmonary lymphoma is rare. More commonly, secondary involvement appears as consolidations, nodules, or peribronchial thickening, often with mediastinal adenopathy."
+      },
+      {
+        "question": "What is 'rounded atelectasis'?",
+        "answer": "A benign collapsed lung area adjacent to pleural thickening, appearing mass-like but with characteristic 'comet tail' vessels curving into it on CT."
+      },
+      {
+        "question": "Can vascular lesions mimic lung masses?",
+        "answer": "Yes, pulmonary arteriovenous malformations or aneurysms may appear mass-like. CT with contrast shows enhancement matching blood vessels, distinguishing them from tumors."
+      },
+      {
+        "question": "What is 'pulmonary blastoma'?",
+        "answer": "A rare, aggressive lung tumor resembling fetal lung tissue, occurring mainly in adults. Appears as large peripheral mass with heterogeneous enhancement."
+      },
+      {
+        "question": "How does asbestos exposure relate to lung masses?",
+        "answer": "Asbestos causes pleural plaques/thickening. Associated malignancies include mesothelioma (pleural-based) and lung cancer (parenchymal), with long latency after exposure."
+      },
+      {
+        "question": "What is 'pulmonary sclerosing pneumocytoma'?",
+        "answer": "A rare benign tumor (formerly called sclerosing hemangioma), more common in Asian women. Appears as well-circumscribed nodule/mass, often with marked contrast enhancement."
+      },
+      {
+        "question": "Can lung abscess mimic cancer?",
+        "answer": "Yes, especially chronic abscesses with thick walls. Clinical features (fever, response to antibiotics) and sometimes biopsy are needed for differentiation."
+      },
+      {
+        "question": "What is 'mucinous adenocarcinoma' appearance?",
+        "answer": "A subtype of lung adenocarcinoma that may appear as consolidations or masses with low attenuation on CT due to mucin content, sometimes with 'bubble-like' lucencies."
+      },
+      {
+        "question": "How do lung masses affect pulmonary function?",
+        "answer": "Large masses may cause obstructive or restrictive patterns. Central masses may cause stridor or post-obstructive pneumonia. Small peripheral masses often have no functional impact."
+      },
+      {
+        "question": "What is 'pulmonary hyalinizing granuloma'?",
+        "answer": "A rare benign condition causing multiple lung masses/nodules composed of hyalinized collagen, possibly related to immune dysfunction. Diagnosed by biopsy."
       }
     ],
     "Nodule": [
@@ -502,6 +1162,66 @@
       {
         "question": "What is the Fleischner Society guideline for nodules?",
         "answer": "Fleischner guidelines provide evidence-based recommendations for nodule follow-up based on size, type (solid vs. subsolid), and patient risk factors to balance cancer detection with unnecessary tests."
+      },
+      {
+        "question": "What is a 'part-solid' nodule?",
+        "answer": "A nodule with both solid and ground-glass components. The solid portion correlates with invasive cancer risk, making these particularly suspicious for malignancy."
+      },
+      {
+        "question": "How quickly do malignant nodules grow?",
+        "answer": "Typical lung cancers have volume doubling times of 100-400 days. Faster growth suggests aggressive tumors or infection; slower growth may be indolent cancers or benign."
+      },
+      {
+        "question": "What is a 'calcified granuloma'?",
+        "answer": "A benign nodule from healed infection (often histoplasmosis or TB) with calcium deposition. Central, laminated, or popcorn calcification patterns suggest benignity."
+      },
+      {
+        "question": "Can rheumatoid arthritis cause lung nodules?",
+        "answer": "Yes, rheumatoid nodules may occur in lungs, often cavitating. Usually seen in severe seropositive disease, sometimes preceding joint symptoms."
+      },
+      {
+        "question": "What is 'tree-in-bud' pattern?",
+        "answer": "Small centrilobular nodules connected to branching lines, resembling a budding tree. Typically indicates small airways disease from infection or aspiration."
+      },
+      {
+        "question": "Can blood vessels mimic lung nodules?",
+        "answer": "Yes, end-on vessels may appear nodular. CT shows continuity with other vessels. Comparison with prior imaging or CT angiography can clarify."
+      },
+      {
+        "question": "What is 'lymphangitic carcinomatosis'?",
+        "answer": "Tumor spread along lymphatics appearing as nodular interlobular septal thickening. Often from lung, breast, or gastric cancers causing dyspnea out of proportion to imaging."
+      },
+      {
+        "question": "How does Wegener's granulomatosis appear?",
+        "answer": "Now called granulomatosis with polyangiitis, it causes multiple nodules which may cavitate, often with renal and upper airway involvement. c-ANCA positive."
+      },
+      {
+        "question": "What is a 'perifissural nodule'?",
+        "answer": "A nodule adjacent to a fissure, typically oval-shaped and benign (intrapulmonary lymph node). Important to recognize to avoid unnecessary follow-up."
+      },
+      {
+        "question": "Can amyloidosis cause lung nodules?",
+        "answer": "Yes, pulmonary amyloidosis may present as solitary or multiple nodules, sometimes calcified. Diagnosis requires biopsy showing amyloid deposits."
+      },
+      {
+        "question": "What is 'miliary' nodular pattern?",
+        "answer": "Innumerable tiny (1-3mm) nodules uniformly distributed, classically seen in miliary TB or fungal infections, also metastases (thyroid, renal cell)."
+      },
+      {
+        "question": "How does sarcoidosis appear nodularly?",
+        "answer": "Sarcoidosis may cause perilymphatic nodules (along bronchi, vessels, fissures) with upper zone predominance, often with hilar adenopathy."
+      },
+      {
+        "question": "What is 'metastatic calcification'?",
+        "answer": "Calcific nodules in lung from hypercalcemia/hyperphosphatemia (e.g., renal failure). Typically upper zone predominance from higher alkalinity in these regions."
+      },
+      {
+        "question": "Can nodules disappear spontaneously?",
+        "answer": "Yes, inflammatory or infectious nodules may resolve. Malignant nodules rarely regress without treatment. Stability over 2 years strongly suggests benignity."
+      },
+      {
+        "question": "What is 'nodular silicosis'?",
+        "answer": "Occupational lung disease from silica exposure causing upper lobe nodules that may coalesce into progressive massive fibrosis. Eggshell calcification of nodes is characteristic."
       }
     ],
     "Fibrosis": [
@@ -544,6 +1264,66 @@
       {
         "question": "Can COVID-19 cause pulmonary fibrosis?",
         "answer": "Some severe COVID-19 survivors develop post-inflammatory fibrosis visible on imaging. The long-term significance is still being studied, but some cases show persistent abnormalities."
+      },
+      {
+        "question": "What is 'usual interstitial pneumonia' pattern?",
+        "answer": "The histologic/radiologic pattern of IPF, with basal-predominant fibrosis, honeycombing, and temporal heterogeneity (areas of varying disease stages)."
+      },
+      {
+        "question": "How does rheumatoid arthritis affect lungs?",
+        "answer": "Can cause several patterns including interstitial fibrosis (similar to UIP or NSIP), bronchiolitis, or rheumatoid nodules. More common in seropositive patients."
+      },
+      {
+        "question": "What is 'nonspecific interstitial pneumonia'?",
+        "answer": "A fibrosing pattern (NSIP) with more uniform involvement than UIP, often associated with connective tissue diseases. Has better prognosis than IPF."
+      },
+      {
+        "question": "Can acid reflux cause pulmonary fibrosis?",
+        "answer": "Chronic microaspiration may contribute to some fibrosis cases, particularly in IPF. Antacid therapy is sometimes used empirically in IPF patients."
+      },
+      {
+        "question": "What is 'traction bronchiectasis'?",
+        "answer": "Bronchial dilation caused by surrounding fibrosis pulling on airways. Distinguishes fibrotic from inflammatory lung diseases on imaging."
+      },
+      {
+        "question": "How does scleroderma affect lungs?",
+        "answer": "Systemic sclerosis commonly causes interstitial lung disease (usually NSIP pattern) and pulmonary hypertension. Lung involvement is a major cause of mortality."
+      },
+      {
+        "question": "What is 'hypersensitivity pneumonitis'?",
+        "answer": "Immune-mediated lung disease from inhaled antigens (bird proteins, molds). Chronic form causes fibrosis often with mosaic attenuation and air-trapping on CT."
+      },
+      {
+        "question": "Can chemotherapy cause pulmonary fibrosis?",
+        "answer": "Yes, drugs like bleomycin, nitrofurantoin, or amiodarone can cause drug-induced lung injury progressing to fibrosis. Requires discontinuation of the causative agent."
+      },
+      {
+        "question": "What is 'pleuroparenchymal fibroelastosis'?",
+        "answer": "A rare fibrosis pattern affecting upper lobes and pleura, appearing as apical caps progressing to consolidation. May be idiopathic or post-hematopoietic stem cell transplant."
+      },
+      {
+        "question": "How does asbestosis appear on imaging?",
+        "answer": "Shows basal-predominant fibrosis with pleural plaques (often calcified). Distinguishing feature from IPF is the presence of pleural disease."
+      },
+      {
+        "question": "What is 'acute exacerbation of IPF'?",
+        "answer": "Sudden worsening with new diffuse alveolar damage superimposed on fibrosis, similar to ARDS. Has high mortality despite aggressive treatment."
+      },
+      {
+        "question": "Can sarcoidosis cause pulmonary fibrosis?",
+        "answer": "Advanced sarcoidosis may progress to fibrosis, typically with upper lobe predominance and hilar retraction, differing from IPF's basal predominance."
+      },
+      {
+        "question": "What is 'end-stage lung' appearance?",
+        "answer": "Extensive honeycombing with near complete replacement of normal architecture. Lung transplantation is only definitive treatment at this stage."
+      },
+      {
+        "question": "How does pulmonary fibrosis affect heart function?",
+        "answer": "Chronic hypoxia and pulmonary vascular remodeling can lead to pulmonary hypertension and right heart failure (cor pulmonale) in advanced cases."
+      },
+      {
+        "question": "What is 'combined pulmonary fibrosis and emphysema'?",
+        "answer": "Syndrome where upper lobe emphysema coexists with lower lobe fibrosis. Patients experience disproportionate hypoxemia due to contrasting physiologic impairments."
       }
     ],
     "Pneumonia": [
@@ -586,6 +1366,70 @@
       {
         "question": "When is hospitalization needed for pneumonia?",
         "answer": "Hospitalization is considered based on severity scores (CURB-65), oxygen needs, comorbidities, inability to take oral meds, or signs of sepsis/respiratory failure."
+      },
+      {
+        "question": "What is 'lobar pneumonia'?",
+        "answer": "Pneumonia consolidating an entire lobe, classically caused by Streptococcus pneumoniae. Shows homogeneous opacity with air bronchograms, respecting fissure boundaries."
+      },
+      {
+        "question": "How does aspiration pneumonia differ?",
+        "answer": "Caused by inhaling gastric/oral contents, often involving anaerobes. Typically affects dependent lung regions (posterior upper lobes or lower lobes)."
+      },
+      {
+        "question": "What is 'necrotizing pneumonia'?",
+        "answer": "Severe pneumonia causing tissue death, often from S. aureus or Klebsiella. Appears as consolidations with multiple small cavities, may progress to lung abscess."
+      },
+      {
+        "question": "Can pneumonia be bilateral?",
+        "answer": "Yes, bilateral pneumonia is common in viral, mycoplasma, or severe bacterial cases. Immunocompromised patients are particularly prone to diffuse pneumonias."
+      },
+      {
+        "question": "What is 'post-obstructive pneumonia'?",
+        "answer": "Pneumonia developing distal to an airway obstruction (tumor, foreign body). Recurrent pneumonia in same location should raise suspicion for obstruction."
+      },
+      {
+        "question": "How does tuberculosis pneumonia differ?",
+        "answer": "TB pneumonia often shows upper lobe predominance, cavitation, and lymphadenopathy. More indolent course than typical bacterial pneumonia."
+      },
+      {
+        "question": "What is 'eosinophilic pneumonia'?",
+        "answer": "A type of pneumonia with eosinophil infiltration, causing peripheral consolidations. May be idiopathic or from drugs, parasites, or fungal infections."
+      },
+      {
+        "question": "Can pneumonia cause lung nodules?",
+        "answer": "Yes, some pneumonias (especially fungal or septic emboli) appear as multiple nodules rather than consolidations. May cavitate in some cases."
+      },
+      {
+        "question": "What is 'lipoid pneumonia'?",
+        "answer": "Chronic pneumonia from aspirated oils (mineral oil, nasal drops). Shows consolidations with fat density on CT. Diagnosed by biopsy or lipid-laden macrophages on lavage."
+      },
+      {
+        "question": "How does COVID-19 pneumonia appear?",
+        "answer": "Typically shows bilateral peripheral ground-glass opacities on CT. X-rays may be normal early or show hazy infiltrates progressing to consolidations in severe cases."
+      },
+      {
+        "question": "What is 'organizing pneumonia'?",
+        "answer": "A pattern of inflammation where granulation tissue plugs alveoli and bronchioles. Appears as patchy consolidations, often migratory. Can be cryptogenic or secondary."
+      },
+      {
+        "question": "Can pneumonia cause permanent lung damage?",
+        "answer": "Most resolve completely, but severe cases (especially necrotizing) may leave scarring or bronchiectasis. Elderly or immunocompromised patients are at higher risk."
+      },
+      {
+        "question": "What is 'round pneumonia'?",
+        "answer": "Spherical consolidation typically seen in children, often caused by S. pneumoniae. Must be distinguished from neoplasms in adults."
+      },
+      {
+        "question": "How does fungal pneumonia differ?",
+        "answer": "Fungal pneumonias (histoplasmosis, coccidioidomycosis) often cause granulomas, lymphadenopathy, and more indolent course than bacterial pneumonia."
+      },
+      {
+        "question": "What is 'chlamydia psittaci pneumonia'?",
+        "answer": "Psittacosis, from bird exposure, causes fever, headache, and patchy consolidations. Diagnosed by serology, treated with tetracyclines."
+      },
+      {
+        "question": "Can pneumonia recur in same location?",
+        "answer": "Recurrent pneumonia in same area suggests underlying structural abnormality, foreign body, or endobronchial obstruction requiring further investigation."
       }
     ],
     "Hernia": [
@@ -628,6 +1472,70 @@
       {
         "question": "What is congenital diaphragmatic hernia (CDH)?",
         "answer": "CDH is a birth defect (usually Bochdalek) allowing abdominal organs into chest, causing pulmonary hypoplasia. It's a neonatal emergency requiring immediate specialized care."
+      },
+      {
+        "question": "What is 'paraesophageal hernia'?",
+        "answer": "A type of hiatal hernia where stomach fundus herniates alongside esophagus, with GE junction remaining in abdomen. Higher risk of volvulus/strangulation than sliding hernia."
+      },
+      {
+        "question": "How does Bochdalek hernia differ in adults vs neonates?",
+        "answer": "Neonatal Bochdalek hernias are large and life-threatening. Adult-onset ones are smaller, often containing only fat (Bochdalek's bumps), usually asymptomatic."
+      },
+      {
+        "question": "What is 'Morgagni hernia'?",
+        "answer": "Anterior diaphragmatic hernia through the foramen of Morgagni, often containing omentum or colon. More common on right side. May be congenital or acquired."
+      },
+      {
+        "question": "Can hiatal hernia cause chronic cough?",
+        "answer": "Yes, through GERD-mediated mechanisms. Large hernias may also cause microaspiration. Cough improvement after hernia repair supports this association."
+      },
+      {
+        "question": "What is 'upside-down stomach'?",
+        "answer": "Severe paraesophageal hernia where stomach completely inverts and resides in chest. High risk of volvulus and strangulation requiring urgent surgical repair."
+      },
+      {
+        "question": "How is congenital diaphragmatic hernia managed prenatally?",
+        "answer": "Severe cases may benefit from fetal endoscopic tracheal occlusion (FETO) to promote lung growth. Delivery at tertiary center with ECMO capability is crucial."
+      },
+      {
+        "question": "What is 'hiatal hernia sliding vs paraesophageal'?",
+        "answer": "Sliding (type I) involves GE junction moving above diaphragm. Paraesophageal (types II-IV) involves fundus/other organs herniating alongside esophagus with GE junction remaining below."
+      },
+      {
+        "question": "Can diaphragmatic hernia cause chest pain?",
+        "answer": "Yes, especially paraesophageal hernias or those with complications like strangulation. Must distinguish from cardiac pain. Large hernias may mimic heart silhouette on X-ray."
+      },
+      {
+        "question": "What is 'gastric volvulus'?",
+        "answer": "Twisting of stomach, often complicating large paraesophageal hernias. Causes severe pain, vomiting, and risk of ischemia. Presents as 'Borchardt's triad': pain, retching, inability to pass NG tube."
+      },
+      {
+        "question": "How does pregnancy affect hiatal hernias?",
+        "answer": "Increased abdominal pressure worsens symptoms. Most managed conservatively during pregnancy. Severe cases may require positioning or antacids, with surgery postponed until postpartum."
+      },
+      {
+        "question": "What is 'Cullen's sign' with diaphragmatic hernia?",
+        "answer": "Periumbilical bruising seen with intra-abdominal bleeding, which may occur from strangulated bowel in a diaphragmatic hernia (though more commonly associated with pancreatitis)."
+      },
+      {
+        "question": "Can exercise cause diaphragmatic hernia?",
+        "answer": "Extreme exertion (weightlifting, etc.) can rarely cause diaphragmatic rupture or worsen existing hernias due to sudden pressure changes."
+      },
+      {
+        "question": "What is 'chronic traumatic diaphragmatic hernia'?",
+        "answer": "Missed diaphragmatic injury from trauma that later presents with herniation, sometimes years later. Often left-sided due to liver protecting right diaphragm."
+      },
+      {
+        "question": "How does laparoscopic surgery affect hiatal hernias?",
+        "answer": "Laparoscopic fundoplication is gold standard for symptomatic hernias. Recent advances include mesh reinforcement and minimally invasive approaches reducing recurrence."
+      },
+      {
+        "question": "What is 'intrathoracic stomach'?",
+        "answer": "Severe hiatal hernia where most/all stomach is in chest. High risk of complications including volvulus, obstruction, and perforation requiring surgical repair."
+      },
+      {
+        "question": "Can diaphragmatic hernias be asymptomatic?",
+        "answer": "Many small hiatal hernias and some congenital hernias (like Morgagni) are found incidentally. However, even asymptomatic hernias may eventually cause problems."
       }
     ]
   }
