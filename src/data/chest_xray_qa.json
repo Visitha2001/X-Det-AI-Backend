@@ -1,0 +1,634 @@
+{
+  "diseases": {
+    "Emphysema": [
+      {
+        "question": "What is emphysema?",
+        "answer": "Emphysema is a lung condition that causes shortness of breath due to damage to the air sacs (alveoli) in the lungs, making it harder to breathe out fully."
+      },
+      {
+        "question": "What are the common symptoms of emphysema?",
+        "answer": "Common symptoms include shortness of breath, chronic cough, wheezing, fatigue, and a barrel-shaped chest in advanced cases."
+      },
+      {
+        "question": "How is emphysema diagnosed on a chest X-ray?",
+        "answer": "On a chest X-ray, emphysema appears as hyperinflated lungs, flattened diaphragms, increased retrosternal air space, and possible bullae (large air spaces)."
+      },
+      {
+        "question": "What causes emphysema?",
+        "answer": "The primary cause is long-term cigarette smoking. Other causes include air pollution, chemical fumes, and a rare genetic condition called alpha-1 antitrypsin deficiency."
+      },
+      {
+        "question": "Can emphysema be cured?",
+        "answer": "There is no cure for emphysema, but treatments can help manage symptoms and slow disease progression. These include quitting smoking, medications, pulmonary rehabilitation, and in severe cases, surgery."
+      },
+      {
+        "question": "What is the difference between emphysema and COPD?",
+        "answer": "Emphysema is a type of COPD (Chronic Obstructive Pulmonary Disease). COPD also includes chronic bronchitis. Both cause airflow obstruction but through different mechanisms."
+      },
+      {
+        "question": "How does emphysema progress over time?",
+        "answer": "Emphysema typically progresses slowly over years. As more alveoli are damaged, breathing becomes increasingly difficult, potentially leading to respiratory failure in advanced stages."
+      },
+      {
+        "question": "What lifestyle changes help with emphysema?",
+        "answer": "Key lifestyle changes include quitting smoking, avoiding air pollutants, regular exercise as tolerated, eating a healthy diet, and getting vaccinated against flu and pneumonia."
+      },
+      {
+        "question": "What medications are used to treat emphysema?",
+        "answer": "Common medications include bronchodilators (like albuterol), inhaled steroids, combination inhalers, and sometimes antibiotics for infections. Oxygen therapy may be needed in advanced cases."
+      },
+      {
+        "question": "Can emphysema lead to other complications?",
+        "answer": "Yes, possible complications include respiratory infections, pulmonary hypertension, heart problems, giant bullae (which can rupture), and respiratory failure."
+      }
+    ],
+    "Infiltration": [
+      {
+        "question": "What is infiltration in a chest X-ray?",
+        "answer": "Infiltration refers to an abnormal substance (like fluid, cells, or other material) in the lung tissue that appears as increased density on a chest X-ray, often suggesting inflammation or infection."
+      },
+      {
+        "question": "What causes pulmonary infiltrates?",
+        "answer": "Common causes include pneumonia, pulmonary edema, hemorrhage, aspiration, inflammatory conditions, and sometimes malignancies."
+      },
+      {
+        "question": "How are infiltrates different from consolidation?",
+        "answer": "Infiltrates are less dense and more poorly defined than consolidation. Consolidation typically indicates complete filling of alveoli, while infiltrates suggest partial filling or interstitial involvement."
+      },
+      {
+        "question": "What symptoms accompany pulmonary infiltrates?",
+        "answer": "Symptoms depend on the cause but may include cough, fever, shortness of breath, chest pain, and fatigue. Some infiltrates may be asymptomatic."
+      },
+      {
+        "question": "How is the cause of infiltrates determined?",
+        "answer": "Diagnosis involves clinical history, physical exam, blood tests, sputum culture, sometimes CT scan, and possibly bronchoscopy or biopsy depending on the clinical scenario."
+      },
+      {
+        "question": "Are all pulmonary infiltrates infectious?",
+        "answer": "No, while many are due to infections like pneumonia, infiltrates can also result from non-infectious causes like heart failure, pulmonary hemorrhage, or inflammatory conditions."
+      },
+      {
+        "question": "How are infiltrates treated?",
+        "answer": "Treatment depends on the underlying cause. Bacterial infections require antibiotics, heart failure needs diuretics, while inflammatory conditions may need steroids or other immunosuppressants."
+      },
+      {
+        "question": "Can COVID-19 cause pulmonary infiltrates?",
+        "answer": "Yes, COVID-19 pneumonia typically shows bilateral interstitial infiltrates on chest X-ray, often more clearly visible on CT scans as ground-glass opacities."
+      },
+      {
+        "question": "What does 'interstitial infiltrates' mean?",
+        "answer": "Interstitial infiltrates indicate abnormal material in the lung's supporting structures (interstitium) rather than the air spaces, often appearing as fine lines or reticular patterns on X-ray."
+      },
+      {
+        "question": "How quickly do infiltrates resolve with treatment?",
+        "answer": "Resolution time varies. Bacterial pneumonia may show improvement in 1-2 weeks, while viral or atypical pneumonia may take longer. Chronic conditions might cause persistent infiltrates."
+      }
+    ],
+    "Pleural_Thickening": [
+      {
+        "question": "What is pleural thickening?",
+        "answer": "Pleural thickening is a condition where the pleura (membrane lining the lungs and chest cavity) becomes thickened and less elastic, often due to inflammation or scarring."
+      },
+      {
+        "question": "What causes pleural thickening?",
+        "answer": "Common causes include asbestos exposure, infections (like tuberculosis or empyema), trauma, surgery, radiation therapy, and certain medications."
+      },
+      {
+        "question": "How is pleural thickening diagnosed on chest X-ray?",
+        "answer": "On X-ray, it appears as irregular thickening of the pleural lining, often most visible along the lateral chest wall or diaphragm. CT scans provide more detailed evaluation."
+      },
+      {
+        "question": "What are the symptoms of pleural thickening?",
+        "answer": "Many cases are asymptomatic. When symptoms occur, they may include mild chest discomfort, shortness of breath with exertion, or a dry cough."
+      },
+      {
+        "question": "Can pleural thickening be cancerous?",
+        "answer": "Most pleural thickening is benign, but diffuse thickening with nodularity can suggest malignant mesothelioma, especially with asbestos exposure history."
+      },
+      {
+        "question": "How is pleural thickening different from pleural effusion?",
+        "answer": "Pleural thickening is scarring/thickening of the pleura itself, while effusion is fluid accumulation between the pleural layers. Both can occur together."
+      },
+      {
+        "question": "Does pleural thickening require treatment?",
+        "answer": "Asymptomatic cases often need no treatment. For symptomatic cases, options may include pain management, respiratory therapy, or rarely surgery for severe restrictive disease."
+      },
+      {
+        "question": "Can pleural thickening progress to other conditions?",
+        "answer": "Severe bilateral pleural thickening can rarely lead to restrictive lung disease. Asbestos-related thickening increases risk for mesothelioma but this is uncommon."
+      },
+      {
+        "question": "How can you prevent pleural thickening?",
+        "answer": "Prevention involves avoiding asbestos exposure, promptly treating lung infections, and proper management of conditions that can cause pleural inflammation."
+      },
+      {
+        "question": "Is pleural thickening reversible?",
+        "answer": "Established fibrosis is generally not reversible, but early inflammatory changes may resolve with treatment of the underlying cause."
+      }
+    ],
+    "Pneumothorax": [
+      {
+        "question": "What is a pneumothorax?",
+        "answer": "A pneumothorax is air in the pleural space causing partial or complete lung collapse. It appears on X-ray as a visible pleural line with absent lung markings beyond it."
+      },
+      {
+        "question": "What are the symptoms of pneumothorax?",
+        "answer": "Symptoms include sudden sharp chest pain (often one-sided), shortness of breath, rapid breathing, and in severe cases, cyanosis or shock."
+      },
+      {
+        "question": "What causes pneumothorax?",
+        "answer": "Causes include trauma, underlying lung disease (COPD, cystic fibrosis), spontaneous rupture of blebs (in tall thin young males), or medical procedures."
+      },
+      {
+        "question": "How is pneumothorax treated?",
+        "answer": "Small pneumothoraces may resolve on their own. Larger ones require needle aspiration or chest tube drainage. Recurrent cases may need pleurodesis or surgery."
+      },
+      {
+        "question": "What's the difference between tension and simple pneumothorax?",
+        "answer": "Tension pneumothorax is life-threatening as air builds up under pressure, shifting mediastinal structures. Simple pneumothorax doesn't have this pressure effect."
+      },
+      {
+        "question": "Can pneumothorax recur?",
+        "answer": "Yes, recurrence rates are 20-60% after first spontaneous pneumothorax, higher after multiple episodes. Smoking increases recurrence risk."
+      },
+      {
+        "question": "How is pneumothorax diagnosed on chest X-ray?",
+        "answer": "Diagnostic features include a visible visceral pleural line, absence of lung markings beyond this line, and possible mediastinal shift in tension pneumothorax."
+      },
+      {
+        "question": "What is a 'deep sulcus sign' in pneumothorax?",
+        "answer": "In supine patients, a deep, sharp costophrenic angle on X-ray suggests pneumothorax, as air collects anteriorly in this position."
+      },
+      {
+        "question": "When is a pneumothorax an emergency?",
+        "answer": "Tension pneumothorax is always an emergency. Also seek immediate care for large pneumothorax, severe symptoms, or in patients with underlying lung disease."
+      },
+      {
+        "question": "Can you fly with a pneumothorax?",
+        "answer": "No, air travel is contraindicated until complete resolution confirmed by X-ray, typically after 2-3 weeks, due to risk of expansion at altitude."
+      }
+    ],
+    "Cardiomegaly": [
+      {
+        "question": "What is cardiomegaly?",
+        "answer": "Cardiomegaly is enlargement of the heart, identified on chest X-ray when the cardiothoracic ratio (heart width/chest width) exceeds 50% on PA view."
+      },
+      {
+        "question": "What causes cardiomegaly?",
+        "answer": "Common causes include hypertension, coronary artery disease, heart valve disorders, cardiomyopathy, and fluid overload from heart failure."
+      },
+      {
+        "question": "How is cardiomegaly diagnosed on chest X-ray?",
+        "answer": "Diagnosis involves measuring the cardiothoracic ratio. Other signs include rounding of cardiac borders, uplifted apex, and posterior displacement on lateral view."
+      },
+      {
+        "question": "What are the symptoms of cardiomegaly?",
+        "answer": "Symptoms depend on the cause but may include shortness of breath, fatigue, swelling in legs, palpitations, and chest pain in some cases."
+      },
+      {
+        "question": "Is cardiomegaly reversible?",
+        "answer": "Some causes are treatable. Hypertension-related enlargement may improve with blood pressure control. Other structural changes may be permanent."
+      },
+      {
+        "question": "What's the difference between true cardiomegaly and pericardial effusion?",
+        "answer": "True cardiomegaly involves heart muscle thickening/chamber dilation. Pericardial effusion is fluid around the heart causing globular enlargement on X-ray."
+      },
+      {
+        "question": "How is cardiomegaly treated?",
+        "answer": "Treatment targets the underlying cause: medications for heart failure, valve surgery if needed, blood pressure control, and lifestyle modifications."
+      },
+      {
+        "question": "Can athletes have cardiomegaly?",
+        "answer": "Athletes may have physiological cardiac enlargement from training (athlete's heart), which is generally benign and differs from pathological cardiomegaly."
+      },
+      {
+        "question": "What complications can cardiomegaly cause?",
+        "answer": "Potential complications include heart failure, blood clots, cardiac arrhythmias, sudden cardiac arrest, and reduced quality of life from symptoms."
+      },
+      {
+        "question": "How often should cardiomegaly be monitored?",
+        "answer": "Monitoring frequency depends on the cause and severity, ranging from every few months to annually for stable cases, with more frequent follow-up if symptomatic."
+      }
+    ],
+    "No_Finding": [
+      {
+        "question": "What does 'no finding' mean in a chest X-ray report?",
+        "answer": "'No finding' indicates no detectable abnormalities in the chest X-ray, with normal lung fields, cardiac silhouette, mediastinum, bones, and soft tissues."
+      },
+      {
+        "question": "Does 'no finding' guarantee I have no lung disease?",
+        "answer": "Not always. Some early or small abnormalities might not be visible on X-ray. Clinical correlation is always needed, and further tests may be required if symptoms persist."
+      },
+      {
+        "question": "What are the limitations of a normal chest X-ray?",
+        "answer": "Limitations include poor visualization of small nodules, early infiltrates, some pleural diseases, and certain mediastinal structures. CT is more sensitive for many conditions."
+      },
+      {
+        "question": "How accurate is a chest X-ray in detecting lung problems?",
+        "answer": "Chest X-rays detect many significant abnormalities but have limited sensitivity (50-70%) for small nodules or early disease compared to CT scans (>90% sensitivity)."
+      },
+      {
+        "question": "Should I get another X-ray if symptoms continue despite 'no finding'?",
+        "answer": "Yes, persistent symptoms warrant reevaluation. Your doctor may recommend repeat imaging (possibly CT), pulmonary function tests, or other diagnostics depending on symptoms."
+      },
+      {
+        "question": "What conditions can be missed on a normal chest X-ray?",
+        "answer": "Early pneumonia, small tumors, pulmonary embolism, early interstitial lung disease, and some pleural effusions might not be visible initially on X-ray."
+      },
+      {
+        "question": "How often are chest X-rays needed for screening?",
+        "answer": "Routine screening isn't recommended for healthy adults. High-risk individuals (like heavy smokers over 50) may benefit from low-dose CT rather than X-ray for cancer screening."
+      },
+      {
+        "question": "Can a chest X-ray be normal in COVID-19 pneumonia?",
+        "answer": "Yes, early COVID-19 may show normal X-rays despite symptoms. CT is more sensitive for detecting early ground-glass opacities characteristic of COVID pneumonia."
+      },
+      {
+        "question": "What does a technically adequate normal chest X-ray look like?",
+        "answer": "Adequate technique shows the lungs from apices to costophrenic angles, proper penetration (vertebral bodies just visible behind heart), no rotation, and good inspiratory effort."
+      },
+      {
+        "question": "Should I keep my normal chest X-ray results?",
+        "answer": "Yes, retain copies of all imaging reports and consider keeping the images. They provide a baseline for comparison if future health issues arise."
+      }
+    ],
+    "Atelectasis": [
+      {
+        "question": "What is atelectasis?",
+        "answer": "Atelectasis is partial or complete collapse of lung tissue, preventing normal air exchange. On X-ray, it appears as increased density with volume loss signs like fissure displacement."
+      },
+      {
+        "question": "What causes atelectasis?",
+        "answer": "Common causes include mucus plugs (post-op), foreign bodies, tumors compressing airways, pleural effusion, pneumothorax, or inadequate lung expansion (e.g., from shallow breathing)."
+      },
+      {
+        "question": "What are the symptoms of atelectasis?",
+        "answer": "Symptoms range from none (small areas) to cough, shortness of breath, fever (if infection develops), and low oxygen levels in more extensive cases."
+      },
+      {
+        "question": "How is atelectasis treated?",
+        "answer": "Treatment focuses on the cause: deep breathing exercises, incentive spirometry, chest physiotherapy, bronchoscopy to remove obstructions, or treating underlying conditions."
+      },
+      {
+        "question": "What's the difference between atelectasis and pneumonia?",
+        "answer": "Atelectasis is mechanical collapse without infection, while pneumonia is infection/inflammation. However, atelectasis can predispose to pneumonia if prolonged."
+      },
+      {
+        "question": "How quickly does atelectasis resolve?",
+        "answer": "Small areas may re-expand within 24-48 hours with proper treatment. Chronic atelectasis (weeks-months) may lead to scarring and permanent damage."
+      },
+      {
+        "question": "What are the types of atelectasis seen on X-ray?",
+        "answer": "Types include subsegmental (linear densities), lobar (entire lobe collapsed), discoid/plate-like (horizontal lines), and round atelectasis (mass-like near pleura)."
+      },
+      {
+        "question": "Is atelectasis common after surgery?",
+        "answer": "Yes, postoperative atelectasis is very common due to anesthesia effects, pain limiting deep breathing, and reduced mucociliary clearance. Incentive spirometry helps prevent it."
+      },
+      {
+        "question": "Can atelectasis be prevented?",
+        "answer": "Prevention includes deep breathing exercises, early mobilization after surgery/sickness, smoking cessation, adequate pain control, and sometimes bronchodilators."
+      },
+      {
+        "question": "What complications can atelectasis cause?",
+        "answer": "Possible complications include pneumonia, hypoxemia, respiratory failure in extensive cases, and bronchiectasis if chronic."
+      }
+    ],
+    "Edema": [
+      {
+        "question": "What is pulmonary edema?",
+        "answer": "Pulmonary edema is fluid accumulation in lung tissue and air spaces, most commonly due to heart failure (cardiogenic) or injury to lung vessels (non-cardiogenic)."
+      },
+      {
+        "question": "What are the symptoms of pulmonary edema?",
+        "answer": "Symptoms include severe shortness of breath (often worse when lying flat), cough (sometimes pink/frothy), anxiety, sweating, and in severe cases, cyanosis."
+      },
+      {
+        "question": "How does pulmonary edema appear on chest X-ray?",
+        "answer": "Findings include fluffy perihilar opacities (bat wing pattern), Kerley B lines (horizontal lines at lung bases), pleural effusions, and enlarged cardiac silhouette in cardiogenic cases."
+      },
+      {
+        "question": "What causes cardiogenic pulmonary edema?",
+        "answer": "Cardiogenic edema results from increased pulmonary venous pressure, typically due to left ventricular failure from conditions like heart attack, hypertension, or valve disease."
+      },
+      {
+        "question": "What causes non-cardiogenic pulmonary edema?",
+        "answer": "Causes include ARDS (sepsis, trauma), high altitude, drug reactions, near-drowning, neurological events, or damage to pulmonary capillaries."
+      },
+      {
+        "question": "How is pulmonary edema treated?",
+        "answer": "Cardiogenic edema is treated with oxygen, diuretics, vasodilators, and addressing the cardiac cause. Non-cardiogenic focuses on treating the underlying condition and supportive care."
+      },
+      {
+        "question": "Is pulmonary edema life-threatening?",
+        "answer": "Acute pulmonary edema is a medical emergency that can rapidly progress to respiratory failure. Chronic forms are more manageable but still serious."
+      },
+      {
+        "question": "What's the difference between interstitial and alveolar edema?",
+        "answer": "Interstitial edema (early stage) shows septal lines and peribronchial cuffing. Alveolar edema (later) shows airspace opacities as fluid spills into alveoli."
+      },
+      {
+        "question": "Can pulmonary edema be prevented?",
+        "answer": "Prevention involves managing heart disease, controlling blood pressure, avoiding fluid overload in at-risk patients, and gradual ascent at high altitudes."
+      },
+      {
+        "question": "How quickly can pulmonary edema develop?",
+        "answer": "Cardiogenic edema can develop over minutes to hours in acute cases. Non-cardiogenic forms may develop over hours to days depending on the cause."
+      }
+    ],
+    "Effusion": [
+      {
+        "question": "What is a pleural effusion?",
+        "answer": "A pleural effusion is abnormal fluid accumulation in the pleural space between the lungs and chest wall, appearing as blunting of costophrenic angles on upright chest X-ray."
+      },
+      {
+        "question": "What causes pleural effusions?",
+        "answer": "Causes include heart failure (most common), pneumonia, malignancy, pulmonary embolism, cirrhosis, kidney disease, tuberculosis, and autoimmune diseases like lupus."
+      },
+      {
+        "question": "How is pleural effusion diagnosed on chest X-ray?",
+        "answer": "Small effusions blunt the costophrenic angle. Moderate-large effusions show meniscus-shaped opacities with mediastinal shift (unless lung is collapsed). Lateral decubitus views help detect small effusions."
+      },
+      {
+        "question": "What are the symptoms of pleural effusion?",
+        "answer": "Symptoms include shortness of breath (most common), pleuritic chest pain, dry cough, and in large effusions, reduced breath sounds on exam."
+      },
+      {
+        "question": "What's the difference between transudate and exudate effusions?",
+        "answer": "Transudates result from systemic factors (like heart failure) with low protein. Exudates result from local inflammation/infection with high protein, requiring different treatments."
+      },
+      {
+        "question": "How is pleural effusion treated?",
+        "answer": "Treatment targets the underlying cause. Large symptomatic effusions may require thoracentesis (fluid drainage). Infected effusions (empyema) need drainage and antibiotics."
+      },
+      {
+        "question": "Can pleural effusion recur?",
+        "answer": "Yes, especially with chronic conditions like heart failure or malignancy. Recurrent malignant effusions may require pleurodesis (sealing the pleural space) to prevent recurrence."
+      },
+      {
+        "question": "What complications can pleural effusion cause?",
+        "answer": "Complications include lung collapse, infection (empyema), pleural thickening, and respiratory failure in large effusions. Thoracentesis risks include pneumothorax and bleeding."
+      },
+      {
+        "question": "How much fluid is needed to see effusion on X-ray?",
+        "answer": "About 200-300 mL is needed to blunt the costophrenic angle on upright PA view. Lateral decubitus views can detect as little as 50 mL in some cases."
+      },
+      {
+        "question": "What does a loculated effusion mean?",
+        "answer": "Loculated effusions are walled-off by adhesions, often seen in empyema or hemothorax. They appear as fixed, non-dependent opacities and may require surgical drainage."
+      }
+    ],
+    "Consolidation": [
+      {
+        "question": "What is lung consolidation?",
+        "answer": "Consolidation occurs when alveoli fill with fluid, pus, blood, or cells, appearing as homogeneous opacities on X-ray that obscure vascular markings, often with air bronchograms."
+      },
+      {
+        "question": "What causes lung consolidation?",
+        "answer": "Common causes include pneumonia (most frequent), pulmonary edema, hemorrhage, aspiration, lung cancer, and less commonly, alveolar proteinosis or eosinophilic pneumonia."
+      },
+      {
+        "question": "How is consolidation different from atelectasis?",
+        "answer": "Consolidation fills alveoli but maintains volume, while atelectasis shows volume loss. Air bronchograms suggest consolidation, while displacement of fissures suggests atelectasis."
+      },
+      {
+        "question": "What are air bronchograms?",
+        "answer": "Air bronchograms are dark branching airways visible within consolidated lung tissue, appearing because air-filled bronchi are surrounded by fluid-filled alveoli."
+      },
+      {
+        "question": "How does bacterial pneumonia appear on X-ray?",
+        "answer": "Bacterial pneumonia typically shows lobar consolidation (entire lobe involved) with air bronchograms. Bronchopneumonia shows patchy multi-focal consolidations."
+      },
+      {
+        "question": "How long does consolidation take to resolve?",
+        "answer": "Bacterial pneumonia may show improvement in 1-2 weeks but complete resolution can take 4-8 weeks. Elderly patients often clear more slowly."
+      },
+      {
+        "question": "Can consolidation be something other than infection?",
+        "answer": "Yes, while infection is most common, consolidation can also represent hemorrhage (after trauma or in bleeding disorders), edema, or rarely neoplasms like lymphoma."
+      },
+      {
+        "question": "What is round pneumonia?",
+        "answer": "Round pneumonia is a well-circumscribed spherical consolidation, typically seen in children (often under 8) caused by Streptococcus pneumoniae or other bacteria."
+      },
+      {
+        "question": "How is consolidation treated?",
+        "answer": "Treatment depends on cause: antibiotics for bacterial pneumonia, diuretics for edema, time/supportive care for viral, and specific therapies for rare causes like alveolar proteinosis."
+      },
+      {
+        "question": "When should a CT be done for consolidation?",
+        "answer": "CT may be needed if: symptoms persist despite treatment, recurrent consolidation in same area (possible obstruction), or when atypical features suggest alternative diagnoses."
+      }
+    ],
+    "Mass": [
+      {
+        "question": "What is a lung mass?",
+        "answer": "A lung mass is an abnormal growth >3 cm in diameter seen on imaging. Smaller (≤3 cm) abnormalities are called nodules. Masses often appear as rounded opacities with irregular margins."
+      },
+      {
+        "question": "What are the common causes of lung masses?",
+        "answer": "Primary lung cancer is most common in adults. Other causes include metastases, benign tumors (hamartomas), infections (round pneumonia, abscess), or inflammatory conditions."
+      },
+      {
+        "question": "How is a lung mass evaluated?",
+        "answer": "Evaluation includes: comparison with prior imaging, CT scan for characterization, PET scan for metabolic activity, and often biopsy (via bronchoscopy, CT-guidance, or surgery)."
+      },
+      {
+        "question": "What imaging features suggest a malignant mass?",
+        "answer": "Concerning features include: spiculated margins, size >3 cm, growth on serial imaging, upper lobe location, and associated lymphadenopathy or bony destruction."
+      },
+      {
+        "question": "Can a lung mass be benign?",
+        "answer": "Yes, about 40% of lung masses are benign. Common benign masses include hamartomas, granulomas, abscesses, or rounded atelectasis. However, all masses require thorough evaluation."
+      },
+      {
+        "question": "What symptoms do lung masses cause?",
+        "answer": "Symptoms may include cough, hemoptysis, weight loss, chest pain, or none at all (many are found incidentally). Large masses may cause wheezing or obstructive pneumonia."
+      },
+      {
+        "question": "How are lung masses treated?",
+        "answer": "Treatment depends on diagnosis: surgical resection for early cancers, chemotherapy/radiation for advanced malignancies, antibiotics for infections, or observation for benign lesions."
+      },
+      {
+        "question": "What's the difference between a mass and a nodule?",
+        "answer": "The distinction is size: nodules are ≤3 cm, masses are >3 cm. Larger size increases malignancy risk, with masses having >90% cancer probability in smokers."
+      },
+      {
+        "question": "Can infections mimic lung cancer masses?",
+        "answer": "Yes, infections like tuberculosis, fungal infections, or round pneumonia can appear mass-like. Clinical context and sometimes trial of antibiotics help differentiate."
+      },
+      {
+        "question": "What is a Pancoast tumor?",
+        "answer": "A Pancoast tumor is a lung cancer mass in the apex (top) of the lung that may invade nearby structures, causing shoulder/arm pain and Horner's syndrome (ptosis, miosis, anhidrosis)."
+      }
+    ],
+    "Nodule": [
+      {
+        "question": "What is a pulmonary nodule?",
+        "answer": "A pulmonary nodule is a rounded opacity ≤3 cm in diameter in the lung, surrounded by lung tissue. Larger lesions are called masses. Nodules appear as white spots on chest X-rays."
+      },
+      {
+        "question": "What causes lung nodules?",
+        "answer": "Causes include: granulomas (from old infections), benign tumors (hamartomas), early cancers, metastases, or infectious/inflammatory processes."
+      },
+      {
+        "question": "How common are incidental lung nodules?",
+        "answer": "Very common - found in up to 50% of CT scans. Most are benign, especially in non-smokers. Only about 1-2% of nodules found on chest X-rays are cancerous."
+      },
+      {
+        "question": "What features suggest a benign nodule?",
+        "answer": "Benign features include: small size (<6 mm), smooth margins, calcification (especially central, popcorn, or concentric), stability over 2 years, and young patient age."
+      },
+      {
+        "question": "When should a lung nodule be biopsied?",
+        "answer": "Biopsy is considered for nodules with suspicious features (growing, spiculated, >8 mm), or when PET scan shows high metabolic activity, depending on patient's risk factors."
+      },
+      {
+        "question": "How are lung nodules monitored?",
+        "answer": "Follow-up depends on size and risk factors: small low-risk nodules may need repeat CT in 6-12 months, while larger or suspicious nodules need shorter interval follow-up or biopsy."
+      },
+      {
+        "question": "Can infections cause lung nodules?",
+        "answer": "Yes, infections like tuberculosis, histoplasmosis, or coccidioidomycosis often cause granulomas that appear as nodules. These may calcify over time."
+      },
+      {
+        "question": "What is a subsolid or ground-glass nodule?",
+        "answer": "Subsolid nodules have hazy increased attenuation that doesn't obscure lung structures. They're more concerning for adenocarcinoma spectrum lesions than solid nodules."
+      },
+      {
+        "question": "How does smoking affect lung nodule risk?",
+        "answer": "Smoking greatly increases cancer risk in nodules. In high-risk smokers, 1-2% of 4-6 mm nodules and 10-20% of 8 mm nodules may be malignant."
+      },
+      {
+        "question": "What is the Fleischner Society guideline for nodules?",
+        "answer": "Fleischner guidelines provide evidence-based recommendations for nodule follow-up based on size, type (solid vs. subsolid), and patient risk factors to balance cancer detection with unnecessary tests."
+      }
+    ],
+    "Fibrosis": [
+      {
+        "question": "What is pulmonary fibrosis?",
+        "answer": "Pulmonary fibrosis is scarring and thickening of lung tissue that stiffens the lungs, making breathing difficult. On X-ray, it appears as reticular or reticulonodular opacities, often at the bases."
+      },
+      {
+        "question": "What causes pulmonary fibrosis?",
+        "answer": "Causes include: idiopathic pulmonary fibrosis (IPF), connective tissue diseases, occupational exposures (asbestos, silica), drugs, radiation, and chronic hypersensitivity pneumonitis."
+      },
+      {
+        "question": "What are the symptoms of pulmonary fibrosis?",
+        "answer": "Progressive shortness of breath (especially with exertion), dry cough, fatigue, clubbing of fingers in advanced cases, and eventual respiratory failure."
+      },
+      {
+        "question": "How is pulmonary fibrosis diagnosed?",
+        "answer": "Diagnosis combines clinical evaluation, imaging (HRCT is gold standard), pulmonary function tests (showing restrictive pattern), and sometimes lung biopsy."
+      },
+      {
+        "question": "What's the difference between fibrosis and emphysema on X-ray?",
+        "answer": "Fibrosis shows reticular patterns and volume loss, while emphysema shows hyperinflation, flattened diaphragms, and bullae. Combined fibrosis-emphysema syndrome also exists."
+      },
+      {
+        "question": "Can pulmonary fibrosis be treated?",
+        "answer": "Some forms can be slowed with antifibrotic drugs (nintedanib, pirfenidone for IPF). Other treatments include oxygen therapy, pulmonary rehab, and lung transplant in eligible patients."
+      },
+      {
+        "question": "What is honeycombing in pulmonary fibrosis?",
+        "answer": "Honeycombing is end-stage fibrosis appearing as clustered cystic spaces (usually 3-10 mm) on imaging, resembling a honeycomb, typically in the lower lobes."
+      },
+      {
+        "question": "How quickly does pulmonary fibrosis progress?",
+        "answer": "IPF typically progresses over 3-5 years, but rates vary. Some secondary fibroses progress more slowly, while acute exacerbations can cause rapid deterioration."
+      },
+      {
+        "question": "What occupational exposures cause fibrosis?",
+        "answer": "Asbestos (causing asbestosis), silica (silicosis), coal dust (coal worker's pneumoconiosis), and beryllium (berylliosis) are classic occupational causes."
+      },
+      {
+        "question": "Can COVID-19 cause pulmonary fibrosis?",
+        "answer": "Some severe COVID-19 survivors develop post-inflammatory fibrosis visible on imaging. The long-term significance is still being studied, but some cases show persistent abnormalities."
+      }
+    ],
+    "Pneumonia": [
+      {
+        "question": "What is pneumonia?",
+        "answer": "Pneumonia is lung infection causing inflammation of airspaces (alveoli), appearing on X-ray as consolidations or infiltrates. It's typically caused by bacteria, viruses, or fungi."
+      },
+      {
+        "question": "What are the common symptoms of pneumonia?",
+        "answer": "Symptoms include fever, cough (often productive), shortness of breath, chest pain (worse with breathing), fatigue, and sometimes confusion in elderly patients."
+      },
+      {
+        "question": "How is pneumonia diagnosed on chest X-ray?",
+        "answer": "X-ray findings include lobar consolidation (bacterial), patchy bilateral infiltrates (viral or atypical), air bronchograms, and sometimes pleural effusion."
+      },
+      {
+        "question": "What's the difference between typical and atypical pneumonia?",
+        "answer": "Typical (bacterial) pneumonia has sudden onset, high fever, productive cough. Atypical (mycoplasma, viruses) has gradual onset, milder fever, dry cough, and often extra-pulmonary symptoms."
+      },
+      {
+        "question": "How is bacterial pneumonia treated?",
+        "answer": "Treatment involves antibiotics (amoxicillin, azithromycin, etc. depending on severity/setting), rest, fluids, and sometimes oxygen or hospitalization for severe cases."
+      },
+      {
+        "question": "Can pneumonia be prevented?",
+        "answer": "Prevention includes vaccination (pneumococcal, flu), smoking cessation, good hand hygiene, and in some cases, prophylactic antibiotics for high-risk patients."
+      },
+      {
+        "question": "What complications can pneumonia cause?",
+        "answer": "Complications include pleural effusion, empyema, lung abscess, sepsis, ARDS, and rarely, spread to other organs (meningitis, endocarditis)."
+      },
+      {
+        "question": "How long does pneumonia take to resolve on X-ray?",
+        "answer": "Radiographic resolution lags behind clinical improvement. Bacterial pneumonia may take 4-8 weeks to clear completely on X-ray, longer in elderly or those with comorbidities."
+      },
+      {
+        "question": "What is walking pneumonia?",
+        "answer": "Walking pneumonia is mild pneumonia (often from Mycoplasma) where patients feel well enough to continue daily activities. It's treated with antibiotics like azithromycin."
+      },
+      {
+        "question": "When is hospitalization needed for pneumonia?",
+        "answer": "Hospitalization is considered based on severity scores (CURB-65), oxygen needs, comorbidities, inability to take oral meds, or signs of sepsis/respiratory failure."
+      }
+    ],
+    "Hernia": [
+      {
+        "question": "What is a diaphragmatic hernia?",
+        "answer": "A diaphragmatic hernia is protrusion of abdominal contents into the chest through a defect in the diaphragm, appearing as an abnormal opacity in the lower chest on X-ray."
+      },
+      {
+        "question": "What are the types of diaphragmatic hernias?",
+        "answer": "Types include: hiatal hernia (most common, stomach through esophageal hiatus), Bochdalek hernia (posterolateral, more common in neonates), and Morgagni hernia (anterior)."
+      },
+      {
+        "question": "What causes diaphragmatic hernias?",
+        "answer": "Causes include congenital defects (Bochdalek), trauma (rupture), increased abdominal pressure (obesity, pregnancy), and age-related weakening of diaphragmatic muscles."
+      },
+      {
+        "question": "What are the symptoms of diaphragmatic hernia?",
+        "answer": "Symptoms range from none (incidental finding) to heartburn/regurgitation (hiatal hernia), or severe respiratory distress (large congenital/traumatic hernias with lung compression)."
+      },
+      {
+        "question": "How is diaphragmatic hernia diagnosed?",
+        "answer": "Diagnosis involves chest X-ray (showing air-fluid levels above diaphragm), barium swallow, or CT scan. Small hiatal hernias may need endoscopy for detection."
+      },
+      {
+        "question": "What complications can diaphragmatic hernias cause?",
+        "answer": "Complications include gastric volvulus, strangulation, severe GERD, aspiration, and in large hernias, respiratory compromise from lung compression."
+      },
+      {
+        "question": "How is diaphragmatic hernia treated?",
+        "answer": "Small asymptomatic hiatal hernias need no treatment. Symptomatic cases may require acid suppression, lifestyle changes, or surgery (fundoplication) for severe/reflux cases."
+      },
+      {
+        "question": "What is a traumatic diaphragmatic hernia?",
+        "answer": "This results from blunt/penetrating trauma causing diaphragm rupture, often left-sided. Bowel may herniate into chest, sometimes delayed after injury. Requires surgical repair."
+      },
+      {
+        "question": "Can a chest X-ray miss a diaphragmatic hernia?",
+        "answer": "Yes, small hiatal hernias may be missed. Lateral or decubitus views help. CT is more sensitive. A nasogastric tube seen curling in chest confirms stomach herniation."
+      },
+      {
+        "question": "What is congenital diaphragmatic hernia (CDH)?",
+        "answer": "CDH is a birth defect (usually Bochdalek) allowing abdominal organs into chest, causing pulmonary hypoplasia. It's a neonatal emergency requiring immediate specialized care."
+      }
+    ]
+  }
+}
