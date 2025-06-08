@@ -9,7 +9,7 @@ class AIChatbotController:
         """Get relevant questions for a disease"""
         if disease not in self.model.disease_data:
             return []
-        return [qa["question"] for qa in self.model.disease_data[disease][:10]]  # Top 10 questions
+        return [qa["question"] for qa in self.model.disease_data[disease][:15]]
     
     def get_ai_response(self, disease: str, query: str) -> Dict:
         """Get AI-generated response for a query"""
