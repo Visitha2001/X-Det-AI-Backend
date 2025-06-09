@@ -7,6 +7,7 @@ from routes.image_upload import router as image_router
 from routes.result_routes import router as result_router
 from routes.disease_routes import router as disease_router
 from routes.bot import router as bot_router
+from routes.g_chat_routes import router as g_chat_router
 
 app = FastAPI()
 
@@ -26,6 +27,7 @@ app.include_router(image_router)
 app.include_router(result_router)
 app.include_router(disease_router)
 app.include_router(bot_router)
+app.include_router(g_chat_router)
 
 from dotenv import load_dotenv
 import os
