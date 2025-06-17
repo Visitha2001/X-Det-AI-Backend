@@ -8,6 +8,7 @@ from config.config import db
 from bson import ObjectId
 from typing import List
 from models.user import User
+from mail.mailer import send_email
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 
@@ -45,7 +46,34 @@ def register_user(user: UserCreate):
     user_dict["hashed_password"] = hashed_password
     del user_dict["password"]
     users_collection.insert_one(user_dict)
+    send_email(
+        to=user.email,
+        subject="Thank you for registering!",
+        body=f"Hello {user.username},\n\nThanks for registering to X-Det-Ai!\n\nWe're thrilled to have you on board!",
+        html_body=html_content
+    )
     return {"message": "User registered successfully"}
+
+html_content = f"""
+<html>
+  <body style="font-family: Arial, sans-serif; line-height: 1.6;">
+    <div style="max-width: 600px; margin: auto; padding: 20px; background: #f9f9f9; border-radius: 10px; border: 1px solid #ddd;">
+      <div style="text-align: center; padding-bottom: 20px;">
+        <img src="https://res.cloudinary.com/dqmeeveij/image/upload/v1750135759/T_logo_kf5rc6.png" alt="X-Det-Ai Logo" style="width: 150px; max-width: 100%; border-radius: 5px;" />
+      </div>
+      <h2 style="color: #333; text-align: center;">Welcome to X-Det-Ai! Your Registration is Complete!</h2>
+      <p style="color: #555;">Dear user,</p>
+      <p style="color: #555;">Thank you for registering with X-Det-Ai. We're excited to have you join our community and start exploring the power of AI-powered diagnostics.</p>
+      <p style="color: #555;">You can now log in to your account to access all our features and services.</p>
+      <p style="color: #555;">If you have any questions or need assistance, feel free to contact our support team.</p>
+      <div style="text-align: center; margin-top: 30px;">
+        <a href="https://your-website.com/login" style="display: inline-block; padding: 12px 25px; background: #007BFF; color: white; text-decoration: none; border-radius: 5px; font-size: 16px;">Log In to Your Account</a>
+      </div>
+      <p style="color: #555; text-align: center; margin-top: 30px; font-size: 14px;">Best regards,<br/>The X-Det-Ai Team</p>
+    </div>
+  </body>
+</html>
+"""
 
 def login_user(form_data: OAuth2PasswordRequestForm):
     user = authenticate_user(form_data.username, form_data.password)
