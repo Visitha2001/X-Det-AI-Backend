@@ -9,6 +9,7 @@ from routes.disease_routes import router as disease_router
 from routes.bot import router as bot_router
 from routes.g_chat_routes import router as g_chat_router
 from routes.reviews import router as reviews_router
+from routes.subscriber_routes import router as subscriber_router
 
 app = FastAPI()
 
@@ -30,6 +31,7 @@ app.include_router(disease_router)
 app.include_router(bot_router)
 app.include_router(g_chat_router)
 app.include_router(reviews_router)
+app.include_router(subscriber_router)
 
 from dotenv import load_dotenv
 import os
