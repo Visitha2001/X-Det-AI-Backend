@@ -1,7 +1,7 @@
 from tensorflow.keras.models import load_model
 
 # Load the model once
-model = load_model("classification_model.h5")
+model = load_model("classification_model2.h5")
 
 # Disease labels
 DISEASE_LABELS = [
