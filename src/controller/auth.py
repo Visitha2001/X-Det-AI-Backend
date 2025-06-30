@@ -59,7 +59,7 @@ html_content = f"""
   <body style="font-family: Arial, sans-serif; line-height: 1.6;">
     <div style="max-width: 600px; margin: auto; padding: 20px; background: #f9f9f9; border-radius: 10px; border: 1px solid #ddd;">
       <div style="text-align: center; padding-bottom: 20px;">
-        <img src="https://res.cloudinary.com/dqmeeveij/image/upload/v1750135759/T_logo_kf5rc6.png" alt="X-Det-Ai Logo" style="width: 150px; max-width: 100%; border-radius: 5px;" />
+        <img src="https://res.cloudinary.com/dqmeeveij/image/upload/v1751270006/Light_Logo_y1wauz.png" alt="X-Det-Ai Logo" style="width: 150px; max-width: 100%; border-radius: 5px;" />
       </div>
       <h2 style="color: #333; text-align: center;">Welcome to X-Det-Ai! Your Registration is Complete!</h2>
       <p style="color: #555;">Dear user,</p>
