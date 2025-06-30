@@ -35,7 +35,7 @@ html_content = f"""
 <html>
   <body style="font-family: Arial, sans-serif; line-height: 1.6;">
     <div style="max-width: 600px; margin: auto; padding: 20px; background: #f9f9f9; border-radius: 10px;">
-      <img src="https://res.cloudinary.com/dqmeeveij/image/upload/v1750135759/T_logo_kf5rc6.png" alt="Newsletter Banner" style="width: 100%; border-radius: 10px;" />
+      <img src="https://res.cloudinary.com/dqmeeveij/image/upload/v1751270006/Light_Logo_y1wauz.png" alt="Newsletter Banner" style="width: 100%; border-radius: 10px;" />
       <h2 style="color: #333;">Welcome to X-Det-Ai!</h2>
       <p>Thank you for subscribing to X-Det-Ai newsletter. You'll now receive the latest updates and insights from the world of AI-powered diagnostics.</p>
       <p>We're thrilled to have you on board!</p>
