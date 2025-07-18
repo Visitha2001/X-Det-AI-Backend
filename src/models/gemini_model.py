@@ -19,6 +19,7 @@ def get_disease_details_gemini(disease_name: str, language: str = "en") -> Optio
         "1. Definition\n2. Symptoms\n3. Causes\n4. Treatments\n5. Prevention methods\n"
         "Format the response in clear paragraphs,points,bold tests,lists,tables with proper headings."
         "at least i need 1000 words"
+        "don't mention 'i can explain', 'this description about' in the begining"
     )
     
     # Add language instruction
