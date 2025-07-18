@@ -1,22 +1,23 @@
 # controller/detail_controller.py
 from typing import Dict
 from fastapi import HTTPException
-# from models.deepseek_model import get_disease_details # Remove or comment out
-from models.gemini_model import get_disease_details_gemini # Import the new function
+from models.gemini_model import get_disease_details_gemini
 import logging
 
 logger = logging.getLogger(__name__)
 
-def generate_disease_details(disease_name: str) -> Dict[str, str]:
+def generate_disease_details(disease_name: str, language: str = "en") -> Dict[str, str]:
     """
     Generate detailed information about a disease using Gemini API
     """
     if not disease_name or disease_name.strip() == "":
         raise HTTPException(status_code=400, detail="Disease name cannot be empty")
     
+    if language not in ["en", "si"]:  # en = English, si = Sinhala
+        raise HTTPException(status_code=400, detail="Invalid language. Supported: en, si")
+    
     try:
-        # Change this line to call the Gemini function
-        details = get_disease_details_gemini(disease_name)
+        details = get_disease_details_gemini(disease_name, language)
         
         if not details:
             raise HTTPException(
@@ -26,6 +27,7 @@ def generate_disease_details(disease_name: str) -> Dict[str, str]:
         
         return {
             "disease": disease_name,
+            "language": language,
             "details": details
         }
     except ValueError as e:

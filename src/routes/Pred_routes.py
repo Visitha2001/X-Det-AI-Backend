@@ -39,6 +39,6 @@ async def predict_image_url(request: ImageUrlRequest):
 #     return StreamingResponse(open(image_path, "rb"), media_type="image/png")
 
 @router.get("/disease-details/{disease_name}")
-async def get_disease_details(disease_name: str):
-    details = generate_disease_details(disease_name)
+async def get_disease_details(disease_name: str, language: str = "en"):
+    details = generate_disease_details(disease_name, language)
     return JSONResponse(content=details)
