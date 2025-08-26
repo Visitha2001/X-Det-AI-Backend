@@ -1,4 +1,3 @@
-# controller/detail_controller.py
 from typing import Dict
 from fastapi import HTTPException
 from models.gemini_model import get_disease_details_gemini
