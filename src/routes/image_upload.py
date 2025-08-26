@@ -1,4 +1,3 @@
-# routes/image_upload.py
 from fastapi import APIRouter, UploadFile, File, Depends, status
 from fastapi.responses import JSONResponse
 from controller.cloudinary_service import CloudinaryService
@@ -25,11 +24,6 @@ async def upload_image(file: UploadFile = File(...)):
     
     # Upload to Cloudinary
     upload_result = await CloudinaryService.upload_image(file)
-    
-    # Here you would typically save the result to your database
-    # For example:
-    # db_image = crud.create_image(db, image=ImageUploadCreate(**upload_result))
-    
     return upload_result
 
 @router.delete("/{public_id}", status_code=status.HTTP_204_NO_CONTENT)

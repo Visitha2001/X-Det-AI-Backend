@@ -1,4 +1,3 @@
-# services/cloudinary_service.py
 import cloudinary
 import cloudinary.uploader
 from models.cloudinary import CloudinarySettings
