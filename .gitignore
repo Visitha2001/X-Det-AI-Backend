@@ -1,5 +1,5 @@
 src/classification_model.h5
-src/classification_model2.h5
+classification_model2.h5
 __pycache__/
 *.py[cod]
 *$py.class
